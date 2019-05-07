@@ -7,7 +7,10 @@
 #    http://shiny.rstudio.com/
 #
 
-library(tidyverse)
+library(dplyr)
+library(stringr)
+library(readr)
+library(purrr)
 library(shiny)
 
 # ------- functions -----------
