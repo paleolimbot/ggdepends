@@ -1,0 +1,851 @@
+target_pkg,object_name,index,object_class,src_file,src_line_start,src_line_end
+ggplot2,theta_rescale_no_clip,1,function,R/coord-polar.r,338,341
+ggplot2,indent,2,function,R/ggproto.r,310,316
+ggplot2,fortify.cld,3,function,R/fortify-multcomp.r,79,85
+ggplot2,predictdf.glm,4,function,R/stat-smooth-methods.r,26,42
+ggplot2,standardise_aes_names,5,function,R/aes.r,153,159
+ggplot2,find_panel,6,function,R/facet-.r,494,504
+ggplot2,facet_wrap,7,function,R/facet-wrap.r,83,128
+ggplot2,geom_label,8,function,R/geom-label.R,6,43
+ggplot2,StatSmooth,9,StatSmooth / Stat / ggproto / gg,NA,NA,NA
+ggplot2,aes_q,10,function,R/aes.r,234,253
+ggplot2,label_variable,11,function,R/labeller.r,110,117
+ggplot2,labeller,12,function,R/labeller.r,424,474
+ggplot2,calc_logticks,13,function,R/annotation-logticks.r,212,244
+ggplot2,ggplot_add,14,function,R/plot-construction.r,86,88
+ggplot2,element_grob.element_text,15,function,R/theme-elements.r,194,219
+ggplot2,StatSummary2d,16,StatSummary2d / Stat / ggproto / gg,NA,NA,NA
+ggplot2,GeomMap,17,GeomMap / GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+ggplot2,$.ggproto_parent,18,function,R/ggproto.r,161,168
+ggplot2,scale_color_manual,19,function,R/scale-manual.r,63,65
+ggplot2,parse_safe,20,function,R/utilities.r,469,477
+ggplot2,draw_key_crossbar,21,function,R/legend-draw.r,115,126
+ggplot2,theme_light,22,function,R/theme-defaults.r,310,349
+ggplot2,merge_element,23,function,R/theme.r,589,591
+ggplot2,scale_range,24,function,R/coord-cartesian-.r,119,128
+ggplot2,scales_map_df,25,function,R/scales-.r,72,78
+ggplot2,cunion,26,function,R/utilities-matrix.r,7,12
+ggplot2,bin_breaks,27,function,R/bin.R,47,49
+ggplot2,PositionFill,28,PositionFill / PositionStack / Position / ggproto / gg,NA,NA,NA
+ggplot2,[<-.uneval,29,function,R/aes.r,140,142
+ggplot2,guide_gengrob.legend,30,function,R/guide-legend.r,301,717
+ggplot2,compute_grob_widths,31,function,R/utilities-table.r,1,4
+ggplot2,GeomDotplot,32,GeomDotplot / Geom / ggproto / gg,NA,NA,NA
+ggplot2,df.grid,33,function,R/facet-.r,251,263
+ggplot2,AxisSecondary,34,AxisSecondary / ggproto / gg,NA,NA,NA
+ggplot2,scale_alpha_identity,35,function,R/scale-identity.r,100,105
+ggplot2,GeomBar,36,GeomBar / GeomRect / Geom / ggproto / gg,NA,NA,NA
+ggplot2,geom_polygon,37,function,R/geom-polygon.r,81,102
+ggplot2,autoplot,38,function,R/autoplot.r,12,14
+ggplot2,ggplot_add.list,39,function,R/plot-construction.r,148,153
+ggplot2,cut_interval,40,function,R/utilities-break.r,24,26
+ggplot2,element_grob.element_line,41,function,R/theme-elements.r,224,248
+ggplot2,grobWidth.absoluteGrob,42,function,R/grob-absolute.r,26,28
+ggplot2,scale_colour_viridis_c,43,function,R/scale-viridis.r,77,93
+ggplot2,scale_type.logical,44,function,R/scale-type.R,75,75
+ggplot2,scale_color_gradient,45,function,R/scale-gradient.r,57,61
+ggplot2,scale_colour_viridis_d,46,function,R/scale-viridis.r,53,61
+ggplot2,layer_grob,47,function,R/plot-build.r,136,140
+ggplot2,grobX.absoluteGrob,48,function,R/grob-absolute.r,32,35
+ggplot2,default_aesthetics,49,function,R/geom-sf.R,123,131
+ggplot2,count,50,function,R/compat-plyr.R,144,157
+ggplot2,scale_apply,51,function,R/layout.R,269,289
+ggplot2,camelize,52,function,R/utilities.r,324,328
+ggplot2,new_aes,53,function,R/aes.r,100,104
+ggplot2,quant_pred,54,function,R/stat-quantile.r,95,106
+ggplot2,FacetNull,55,FacetNull / Facet / ggproto / gg,NA,NA,NA
+ggplot2,.stroke,56,numeric,NA,NA,NA
+ggplot2,aes_string,57,function,R/aes.r,257,271
+ggplot2,label_parsed,58,function / labeller,R/labeller.r,154,168
+ggplot2,bin_out,59,function,R/bin.R,163,177
+ggplot2,NO_PANEL,60,integer,NA,NA,NA
+ggplot2,ggtitle,61,function,R/labels.r,94,96
+ggplot2,scale_colour_hue,62,function,R/scale-hue.r,53,57
+ggplot2,limits.Date,63,function,R/limits.r,109,112
+ggplot2,grid.draw.absoluteGrob,64,function,R/grob-absolute.r,45,47
+ggplot2,$.ggproto,65,function,R/ggproto.r,151,158
+ggplot2,scales_list,66,function,R/scales-.r,5,7
+ggplot2,waiver,67,function,R/utilities.r,169,169
+ggplot2,ScaleContinuous,68,ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ggplot2,theme_get,69,function,R/theme-current.R,67,69
+ggplot2,coord_fixed,70,function,R/coord-fixed.r,25,32
+ggplot2,GeomLine,71,GeomLine / GeomPath / Geom / ggproto / gg,NA,NA,NA
+ggplot2,ScaleDiscrete,72,ScaleDiscrete / Scale / ggproto / gg,NA,NA,NA
+ggplot2,annotation_logticks,73,function,R/annotation-logticks.r,76,105
+ggplot2,fortify,74,function,R/fortify.r,12,12
+ggplot2,height_cm,75,function,R/utilities-grid.r,27,37
+ggplot2,dist_central_angle,76,function,R/coord-munch.r,89,99
+ggplot2,guide_colourbar,77,function,R/guide-colorbar.r,100,191
+ggplot2,Position,78,Position / ggproto / gg,NA,NA,NA
+ggplot2,PositionJitter,79,PositionJitter / Position / ggproto / gg,NA,NA,NA
+ggplot2,theme_linedraw,80,function,R/theme-defaults.r,270,306
+ggplot2,is_calculated_aes,81,function,R/aes-calculated.r,36,38
+ggplot2,sf_types,82,character,NA,NA,NA
+ggplot2,CoordFlip,83,CoordFlip / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+ggplot2,guides_train,84,function,R/guides-.r,163,201
+ggplot2,label_just_defaults.colorbar,85,function,R/guide-colorbar.r,556,571
+ggplot2,stat_identity,86,function,R/stat-identity.r,11,29
+ggplot2,mean_cl_boot,87,function,R/stat-summary.r,197,208
+ggplot2,makeContent.labelgrob,88,function,R/geom-label.R,124,147
+ggplot2,theme_update,89,function,R/theme-current.R,88,90
+ggplot2,scale_type.character,90,function,R/scale-type.R,78,78
+ggplot2,geom_segment,91,function,R/geom-segment.r,68,95
+ggplot2,stat_spoke,92,function,R/geom-spoke.r,47,50
+ggplot2,zeroGrob,93,function,R/grob-null.r,5,5
+ggplot2,geom_errorbar,94,function,R/geom-errorbar.r,3,22
+ggplot2,compact_facets,95,function,R/facet-.r,318,322
+ggplot2,stat_qq_line,96,function,R/stat-qq-line.R,7,36
+ggplot2,is.discrete,97,function,R/utilities.r,349,351
+ggplot2,sf_rescale01,98,function,R/coord-sf.R,374,380
+ggplot2,geom_spoke,99,function,R/geom-spoke.r,23,42
+ggplot2,label_bquote,100,function,R/labeller.r,197,231
+ggplot2,update_guides,101,function,R/guides-.r,69,73
+ggplot2,NO_GROUP,102,integer,NA,NA,NA
+ggplot2,fortify.Line,103,function,R/fortify-spatial.r,105,110
+ggplot2,.plot_store,104,function,R/plot-last.r,1,8
+ggplot2,scale_x_time,105,function,R/scale-date.r,203,227
+ggplot2,warn_new_infinites,106,function,R/coord-transform.r,206,210
+ggplot2,limits.numeric,107,function,R/limits.r,84,93
+ggplot2,label_context,108,function / labeller,R/labeller.r,143,149
+ggplot2,GeomHex,109,GeomHex / Geom / ggproto / gg,NA,NA,NA
+ggplot2,GeomCrossbar,110,GeomCrossbar / Geom / ggproto / gg,NA,NA,NA
+ggplot2,update_stat_defaults,111,function,R/geom-defaults.r,23,28
+ggplot2,cases,112,function,R/utilities.r,113,125
+ggplot2,StatBinhex,113,StatBinhex / Stat / ggproto / gg,NA,NA,NA
+ggplot2,guide_train.legend,114,function,R/guide-legend.r,199,229
+ggplot2,geom_tile,115,function,R/geom-tile.r,58,79
+ggplot2,munch_data,116,function,R/coord-munch.r,45,67
+ggplot2,position_dodge2,117,function,R/position-dodge2.r,7,15
+ggplot2,print.ggproto,118,function,R/ggproto.r,236,244
+ggplot2,scale_fill_hue,119,function,R/scale-hue.r,61,65
+ggplot2,fortify.SpatialLinesDataFrame,120,function,R/fortify-spatial.r,80,82
+ggplot2,label_value,121,function / labeller,R/labeller.r,97,104
+ggplot2,pos_stack,122,function,R/position-stack.r,202,215
+ggplot2,scale_alpha_ordinal,123,function,R/scale-alpha.r,38,45
+ggplot2,coord_munch,124,function,R/coord-munch.r,14,38
+ggplot2,StatBoxplot,125,StatBoxplot / Stat / ggproto / gg,NA,NA,NA
+ggplot2,GeomSmooth,126,GeomSmooth / Geom / ggproto / gg,NA,NA,NA
+ggplot2,StatEcdf,127,StatEcdf / Stat / ggproto / gg,NA,NA,NA
+ggplot2,scale_color_gradient2,128,function,R/scale-gradient.r,76,82
+ggplot2,dotstackGrob,129,function,R/grob-dotstack.r,1,22
+ggplot2,scale_type.default,130,function,R/scale-type.R,62,66
+ggplot2,ggplot_add.NULL,131,function,R/plot-construction.r,94,96
+ggplot2,GeomArea,132,GeomArea / GeomRibbon / Geom / ggproto / gg,NA,NA,NA
+ggplot2,label_wrap_gen,133,function,R/labeller.r,236,245
+ggplot2,find_x_overlaps,134,function,R/position-dodge2.r,132,143
+ggplot2,geom_map,135,function,R/geom-map.r,62,90
+ggplot2,guide_colorbar,136,function,R/guide-colorbar.r,100,191
+ggplot2,check_aesthetics,137,function,R/geom-.r,177,190
+ggplot2,geom_text,138,function,R/geom-text.r,126,160
+ggplot2,ScalesList,139,ScalesList / ggproto / gg,NA,NA,NA
+ggplot2,scale_color_hue,140,function,R/scale-hue.r,53,57
+ggplot2,guide_train,141,function,R/guides-.r,315,315
+ggplot2,discrete_scale,142,function,R/scale-.r,634,670
+ggplot2,geom_pointrange,143,function,R/geom-pointrange.r,3,24
+ggplot2,validate_mapping,144,function,R/layer.r,162,177
+ggplot2,is_npc,145,function,R/grob-dotstack.r,24,24
+ggplot2,RangeContinuous,146,RangeContinuous / Range / ggproto / gg,NA,NA,NA
+ggplot2,FacetGrid,147,FacetGrid / Facet / ggproto / gg,NA,NA,NA
+ggplot2,ggplot_add.Coord,148,function,R/plot-construction.r,131,141
+ggplot2,limits.POSIXlt,149,function,R/limits.r,119,122
+ggplot2,GeomPath,150,GeomPath / Geom / ggproto / gg,NA,NA,NA
+ggplot2,draw_key_pointrange,151,function,R/legend-draw.r,176,181
+ggplot2,stat_sf_coordinates,152,function,R/stat-sf-coordinates.R,60,79
+ggplot2,is.ggproto,153,function,R/ggproto.r,104,104
+ggplot2,parse_axes_labeling,154,function,R/coord-sf.R,465,468
+ggplot2,should_stop,155,function,R/utilities.r,153,157
+ggplot2,format.ggproto_method,156,function,R/ggproto.r,330,348
+ggplot2,grobWidth.zeroGrob,157,function,R/grob-null.r,18,18
+ggplot2,resolve_labeller,158,function,R/labeller.r,249,266
+ggplot2,fortify.glht,159,function,R/fortify-multcomp.r,35,42
+ggplot2,check_nondata_cols,160,function,R/utilities.r,356,359
+ggplot2,rbind_dfs,161,function,R/compat-plyr.R,267,312
+ggplot2,element_blank,162,function,R/theme-elements.r,55,60
+ggplot2,geom_dotplot,163,function,R/geom-dotplot.r,117,171
+ggplot2,CoordMap,164,CoordMap / Coord / ggproto / gg,NA,NA,NA
+ggplot2,scale_type,165,function,R/scale-type.R,59,59
+ggplot2,scale_x_reverse,166,function,R/scale-continuous.r,164,166
+ggplot2,geom_ribbon,167,function,R/geom-ribbon.r,34,53
+ggplot2,el_def,168,function,R/theme-elements.r,259,261
+ggplot2,bin_breaks_bins,169,function,R/bin.R,97,116
+ggplot2,geom_boxplot,170,function,R/geom-boxplot.r,105,154
+ggplot2,GeomVline,171,GeomVline / Geom / ggproto / gg,NA,NA,NA
+ggplot2,continuous_scale,172,function,R/scale-.r,562,606
+ggplot2,heightDetails.titleGrob,173,function,R/margins.R,212,214
+ggplot2,element_grob,174,function,R/theme-elements.r,172,174
+ggplot2,print.rel,175,function,R/theme-elements.r,136,136
+ggplot2,collide2,176,function,R/position-collide.r,70,87
+ggplot2,defaults,177,function,R/compat-plyr.R,14,14
+ggplot2,message_wrap,178,function,R/utilities.r,377,381
+ggplot2,find_scale,179,function,R/scale-type.R,1,23
+ggplot2,validate_column_vec,180,function,R/utilities.r,449,454
+ggplot2,check_breaks_labels,181,function,R/scale-.r,178,189
+ggplot2,scale_size_datetime,182,function,R/scale-size.r,97,99
+ggplot2,scale_y_reverse,183,function,R/scale-continuous.r,169,171
+ggplot2,StatQuantile,184,StatQuantile / Stat / ggproto / gg,NA,NA,NA
+ggplot2,GeomCurve,185,GeomCurve / GeomSegment / Geom / ggproto / gg,NA,NA,NA
+ggplot2,title_spec,186,function,R/margins.R,39,91
+ggplot2,position_stack,187,function,R/position-stack.r,128,130
+ggplot2,predictdf.locfit,188,function,R/stat-smooth-methods.r,60,71
+ggplot2,scale_colour_manual,189,function,R/scale-manual.r,63,65
+ggplot2,scale_size_date,190,function,R/scale-size.r,104,106
+ggplot2,scale_fill_viridis_c,191,function,R/scale-viridis.r,97,113
+ggplot2,stat_summary_hex,192,function,R/stat-summary-hex.r,4,33
+ggplot2,hex_binwidth,193,function,R/hexbin.R,1,6
+ggplot2,scale_fill_viridis_d,194,function,R/scale-viridis.r,65,73
+ggplot2,is_calculated,195,function,R/aes-calculated.r,40,56
+ggplot2,guides,196,function,R/guides-.r,60,67
+ggplot2,expand_range4,197,function,R/utilities.r,190,201
+ggplot2,fortify.data.frame,198,function,R/fortify.r,15,15
+ggplot2,continuous_range,199,function,R/range.r,27,29
+ggplot2,hex_bounds,200,function,R/hexbin.R,8,13
+ggplot2,bin2d_breaks,201,function,R/stat-bin2d.r,105,136
+ggplot2,has_groups,202,function,R/grouping.r,33,39
+ggplot2,geom_density_2d,203,function,R/geom-density2d.r,47,72
+ggplot2,scale_y_time,204,function,R/scale-date.r,232,256
+ggplot2,position_identity,205,function,R/position-identity.r,5,7
+ggplot2,sec_axis,206,function,R/axis-secondary.R,82,93
+ggplot2,stat_bin_hex,207,function,R/stat-binhex.r,11,34
+ggplot2,breaks,208,function,R/utilities-break.r,93,115
+ggplot2,summarise_layout,209,function,R/summarise-plot.R,61,93
+ggplot2,find_global,210,function,R/scale-type.R,28,39
+ggplot2,interleave,211,function,R/utilities-matrix.r,15,15
+ggplot2,scale_linetype_identity,212,function,R/scale-identity.r,91,96
+ggplot2,GeomRaster,213,GeomRaster / Geom / ggproto / gg,NA,NA,NA
+ggplot2,CoordTrans,214,CoordTrans / Coord / ggproto / gg,NA,NA,NA
+ggplot2,GeomDensity2d,215,GeomDensity2d / GeomPath / Geom / ggproto / gg,NA,NA,NA
+ggplot2,geom_step,216,function,R/geom-path.r,271,288
+ggplot2,geom_path,217,function,R/geom-path.r,92,119
+ggplot2,font_descent,218,function,R/margins.R,334,359
+ggplot2,StatSum,219,StatSum / Stat / ggproto / gg,NA,NA,NA
+ggplot2,scale_color_discrete,220,function,R/scale-hue.r,53,57
+ggplot2,coord_polar,221,function,R/coord-polar.r,60,71
+ggplot2,ggproto,222,function,R/ggproto.r,57,91
+ggplot2,labs,223,function,R/labels.r,68,78
+ggplot2,seq_asc,224,function,R/utilities.r,432,438
+ggplot2,scale_type.AsIs,225,function,R/scale-type.R,72,72
+ggplot2,snake_class,226,function,R/utilities.r,341,343
+ggplot2,GeomRug,227,GeomRug / Geom / ggproto / gg,NA,NA,NA
+ggplot2,warning_wrap,228,function,R/utilities.r,383,387
+ggplot2,stat_summary2d,229,function,R/stat-summary-2d.r,73,76
+ggplot2,ggplot_add.default,230,function,R/plot-construction.r,90,92
+ggplot2,interleave.default,231,function,R/utilities-matrix.r,21,38
+ggplot2,scale_colour_identity,232,function,R/scale-identity.r,64,69
+ggplot2,scale_size_continuous,233,function,R/scale-size.r,37,43
+ggplot2,compute_grob_heights,234,function,R/utilities-table.r,6,9
+ggplot2,set_last_plot,235,function,R/plot-last.r,16,16
+ggplot2,StatBindot,236,StatBindot / Stat / ggproto / gg,NA,NA,NA
+ggplot2,fortify.formula,237,function,R/fortify.r,31,31
+ggplot2,id_var,238,function,R/compat-plyr.R,54,71
+ggplot2,set_draw_key,239,function,R/layer.r,428,438
+ggplot2,guides_geom,240,function,R/guides-.r,219,221
+ggplot2,mid_rescaler,241,function,R/scale-gradient.r,94,98
+ggplot2,as.quoted,242,function,R/compat-plyr.R,234,246
+ggplot2,facet_null,243,function,R/facet-null.r,13,17
+ggplot2,adjust_angle,244,function,R/labeller.r,680,688
+ggplot2,stat_function,245,function,R/stat-function.r,57,84
+ggplot2,to_lower_ascii,246,function,R/utilities.r,312,312
+ggplot2,LayerSf,247,LayerSf / Layer / ggproto / gg,NA,NA,NA
+ggplot2,GeomPolygon,248,GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+ggplot2,densitybin,249,function,R/stat-bindot.r,142,182
+ggplot2,limits.factor,250,function,R/limits.r,105,107
+ggplot2,sf_grob,251,function,R/geom-sf.R,133,164
+ggplot2,try_require,252,function,R/utilities.r,50,57
+ggplot2,stat_density,253,function,R/stat-density.r,29,59
+ggplot2,Scale,254,Scale / ggproto / gg,NA,NA,NA
+ggplot2,plot_clone,255,function,R/plot.r,112,117
+ggplot2,GeomHline,256,GeomHline / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_colour_distiller,257,function,R/scale-brewer.r,80,90
+ggplot2,unique_combs,258,function,R/facet-.r,243,249
+ggplot2,is_bins,259,function,R/bin.R,24,24
+ggplot2,add_ggplot,260,function,R/plot-construction.r,65,72
+ggplot2,dual_param,261,function,R/stat-bin2d.r,91,103
+ggplot2,StatEllipse,262,StatEllipse / Stat / ggproto / gg,NA,NA,NA
+ggplot2,create_strip_labels,263,function,R/labeller.r,578,590
+ggplot2,StatQqLine,264,StatQqLine / Stat / ggproto / gg,NA,NA,NA
+ggplot2,Layer,265,Layer / ggproto / gg,NA,NA,NA
+ggplot2,ulevels,266,function,R/facet-grid-.r,431,438
+ggplot2,panel_rows,267,function,R/facet-.r,513,516
+ggplot2,draw_key_boxplot,268,function,R/legend-draw.r,98,111
+ggplot2,scale_fill_date,269,function,R/zxx.r,83,97
+ggplot2,derive,270,function,R/axis-secondary.R,117,119
+ggplot2,PositionJitterdodge,271,PositionJitterdodge / Position / ggproto / gg,NA,NA,NA
+ggplot2,GeomCustomAnn,272,GeomCustomAnn / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_colour_gradient2,273,function,R/scale-gradient.r,76,82
+ggplot2,median_hilow,274,function,R/stat-summary.r,197,208
+ggplot2,scale_y_continuous,275,function,R/scale-continuous.r,96,110
+ggplot2,is.zero,276,function,R/grob-null.r,26,26
+ggplot2,render_axis,277,function,R/coord-.r,159,167
+ggplot2,scale_shape_manual,278,function,R/scale-manual.r,81,83
+ggplot2,.pt,279,numeric,NA,NA,NA
+ggplot2,create_quantile_segment_frame,280,function,R/geom-violin.r,169,184
+ggplot2,ggname,281,function,R/utilities-grid.r,11,14
+ggplot2,wrap_dims,282,function,R/facet-wrap.r,458,471
+ggplot2,fortify.confint.glht,283,function,R/fortify-multcomp.r,47,57
+ggplot2,theme,284,function,R/theme.r,261,407
+ggplot2,layer_sf,285,function,R/layer-sf.R,11,22
+ggplot2,dispatch_args,286,function,R/utilities.r,398,404
+ggplot2,summary.ggplot,287,function,R/summary.r,12,42
+ggplot2,stat_boxplot,288,function,R/stat-boxplot.r,16,37
+ggplot2,RangeDiscrete,289,RangeDiscrete / Range / ggproto / gg,NA,NA,NA
+ggplot2,geom_freqpoly,290,function,R/geom-freqpoly.r,3,25
+ggplot2,GeomLabel,291,GeomLabel / Geom / ggproto / gg,NA,NA,NA
+ggplot2,compact,292,function,R/utilities.r,361,364
+ggplot2,transform_position,293,function,R/position-.r,77,93
+ggplot2,scale_color_brewer,294,function,R/scale-brewer.r,68,70
+ggplot2,PositionNudge,295,PositionNudge / Position / ggproto / gg,NA,NA,NA
+ggplot2,draw_key_abline,296,function,R/legend-draw.r,46,55
+ggplot2,plot_theme,297,function,R/theme.r,413,420
+ggplot2,theme_classic,298,function,R/theme-defaults.r,419,446
+ggplot2,eval_facets,299,function,R/facet-.r,420,423
+ggplot2,.onLoad,300,function,R/zzz.r,19,31
+ggplot2,make_proto_method,301,function,R/ggproto.r,170,184
+ggplot2,benchplot,302,function,R/bench.r,15,31
+ggplot2,scale_colour_gradient,303,function,R/scale-gradient.r,57,61
+ggplot2,to_upper_ascii,304,function,R/utilities.r,313,313
+ggplot2,.packageName,305,character,NA,NA,NA
+ggplot2,ggplot_add.Layer,306,function,R/plot-construction.r,155,164
+ggplot2,is_missing_arg,307,function,R/utilities.r,406,406
+ggplot2,geom_density2d,308,function,R/geom-density2d.r,47,72
+ggplot2,hexBinSummarise,309,function,R/hexbin.R,15,42
+ggplot2,is_column_vec,310,function,R/utilities.r,455,458
+ggplot2,calc_bw,311,function,R/stat-ydensity.r,108,125
+ggplot2,scale_type.hms,312,function,R/scale-type.R,96,96
+ggplot2,last_plot,313,function,R/plot-last.r,24,24
+ggplot2,dummy_data,314,function,R/utilities.r,422,422
+ggplot2,geom_abline,315,function,R/geom-abline.r,71,121
+ggplot2,f_as_facets_list,316,function,R/facet-.r,359,367
+ggplot2,calculate_ellipse,317,function,R/stat-ellipse.R,84,118
+ggplot2,coord_cartesian,318,function,R/coord-cartesian-.r,62,70
+ggplot2,update_geom_defaults,319,function,R/geom-defaults.r,14,19
+ggplot2,fortify.sfc,320,function,R/fortify-spatial.r,115,117
+ggplot2,geom_hex,321,function,R/geom-hex.r,30,49
+ggplot2,fortify.sfg,322,function,R/fortify-spatial.r,121,123
+ggplot2,fortify.tbl,323,function,R/fortify.r,19,24
+ggplot2,geom_bin2d,324,function,R/geom-bin2d.r,27,47
+ggplot2,ggplot_gtable,325,function,R/plot-build.r,157,159
+ggplot2,layer,326,function,R/layer.r,65,160
+ggplot2,release_questions,327,function,R/zzz.r,33,37
+ggplot2,.zeroGrob,328,zeroGrob / grob / gDesc,NA,NA,NA
+ggplot2,stack_var,329,function,R/position-stack.r,226,242
+ggplot2,geom_sf_label,330,function,R/geom-sf.R,195,235
+ggplot2,StatIdentity,331,StatIdentity / Stat / ggproto / gg,NA,NA,NA
+ggplot2,stat_contour,332,function,R/stat-contour.r,11,30
+ggplot2,scale_fill_gradientn,333,function,R/scale-gradient.r,113,119
+ggplot2,width_cm,334,function,R/utilities-grid.r,16,26
+ggplot2,%+%,335,function,R/plot-construction.r,40,58
+ggplot2,ylab,336,function,R/labels.r,88,90
+ggplot2,lims,337,function,R/limits.r,49,57
+ggplot2,render_strips,338,function,R/facet-.r,634,639
+ggplot2,data_frame,339,function,R/performance.R,21,23
+ggplot2,add_theme,340,function,R/theme.r,429,461
+ggplot2,margin,341,function,R/margins.R,6,10
+ggplot2,GeomAnnotationMap,342,GeomAnnotationMap / GeomMap / GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_fill_grey,343,function,R/scale-grey.r,35,38
+ggplot2,is.theme,344,function,R/theme.r,648,648
+ggplot2,check_labeller,345,function,R/labeller.r,691,706
+ggplot2,draw_key_timeseries,346,function,R/legend-draw.r,235,252
+ggplot2,check_required_aesthetics,347,function,R/utilities.r,26,32
+ggplot2,make_labels,348,function,R/aes-calculated.r,88,105
+ggplot2,guide_geom,349,function,R/guides-.r,323,323
+ggplot2,uniquecols,350,function,R/utilities.r,63,67
+ggplot2,draw_key_point,351,function,R/legend-draw.r,26,42
+ggplot2,aes_,352,function,R/aes.r,234,253
+ggplot2,annotation_id,353,function,R/annotation-custom.r,94,97
+ggplot2,calc_element,354,function,R/theme.r,531,569
+ggplot2,is.waive,355,function,R/utilities.r,171,171
+ggplot2,as_labeller,356,function,R/labeller.r,300,322
+ggplot2,scale_type.factor,357,function,R/scale-type.R,84,84
+ggplot2,hexGrob,358,function,R/geom-hex.r,96,112
+ggplot2,scale_flip_position,359,function,R/scale-.r,673,682
+ggplot2,scale_type.list,360,function,R/scale-type.R,69,69
+ggplot2,geom_col,361,function,R/geom-col.r,3,25
+ggplot2,scale_continuous_identity,362,function,R/scale-identity.r,127,132
+ggplot2,layer_data,363,function,R/plot-build.r,116,118
+ggplot2,GeomSpoke,364,GeomSpoke / GeomSegment / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_fill_distiller,365,function,R/scale-brewer.r,94,101
+ggplot2,discard_dots,366,function,R/facet-.r,398,400
+ggplot2,GeomRasterAnn,367,GeomRasterAnn / Geom / ggproto / gg,NA,NA,NA
+ggplot2,CoordPolar,368,CoordPolar / Coord / ggproto / gg,NA,NA,NA
+ggplot2,scale_x_continuous,369,function,R/scale-continuous.r,77,92
+ggplot2,scales_add_defaults,370,function,R/scales-.r,91,106
+ggplot2,dup_axis,371,function,R/axis-secondary.R,97,99
+ggplot2,theme_void,372,function,R/theme-defaults.r,450,507
+ggplot2,stat_count,373,function,R/stat-count.r,14,41
+ggplot2,coord_quickmap,374,function,R/coord-quickmap.R,4,10
+ggplot2,margin_height,375,function,R/margins.R,15,19
+ggplot2,stat_quantile,376,function,R/stat-quantile.r,13,40
+ggplot2,position_nudge,377,function,R/position-nudge.R,29,34
+ggplot2,stat_summary_bin,378,function,R/stat-summary-bin.R,4,39
+ggplot2,scale_fill_gradient2,379,function,R/scale-gradient.r,86,92
+ggplot2,ScaleContinuousPosition,380,ScaleContinuousPosition / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ggplot2,StatCount,381,StatCount / Stat / ggproto / gg,NA,NA,NA
+ggplot2,GeomErrorbar,382,GeomErrorbar / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_colour_gradientn,383,function,R/scale-gradient.r,104,110
+ggplot2,scale_fill_continuous,384,function,R/scale-colour.r,38,46
+ggplot2,stat_binhex,385,function,R/stat-binhex.r,11,34
+ggplot2,ggstrip,386,function,R/labeller.r,606,677
+ggplot2,scale_type.POSIXt,387,function,R/scale-type.R,87,87
+ggplot2,geom_hline,388,function,R/geom-hline.r,6,40
+ggplot2,ggsave,389,function,R/save.r,53,75
+ggplot2,guide_train.colorbar,390,function,R/guide-colorbar.r,194,232
+ggplot2,scale_color_gradientn,391,function,R/scale-gradient.r,104,110
+ggplot2,rename_aes,392,function,R/aes.r,162,172
+ggplot2,join_keys,393,function,R/compat-plyr.R,161,168
+ggplot2,ggplot_build.ggplot,394,function,R/plot-build.r,28,112
+ggplot2,theme_bw,395,function,R/theme-defaults.r,242,266
+ggplot2,position_fill,396,function,R/position-stack.r,134,136
+ggplot2,draw_key_smooth,397,function,R/legend-draw.r,185,193
+ggplot2,gg_dep,398,function,R/utilities.r,276,298
+ggplot2,scale_shape_discrete,399,function,R/scale-shape.r,37,39
+ggplot2,data.frame,400,function,R/performance.R,25,27
+ggplot2,GeomSf,401,GeomSf / Geom / ggproto / gg,NA,NA,NA
+ggplot2,firstUpper,402,function,R/utilities.r,337,339
+ggplot2,annotation_raster,403,function,R/annotation-raster.r,40,61
+ggplot2,train_trans,404,function,R/coord-transform.r,163,198
+ggplot2,geom_sf_text,405,function,R/geom-sf.R,241,277
+ggplot2,coord_map,406,function,R/coord-map.r,139,153
+ggplot2,clist,407,function,R/utilities.r,41,43
+ggplot2,round_any,408,function,R/compat-plyr.R,248,251
+ggplot2,geom_violin,409,function,R/geom-violin.r,71,96
+ggplot2,scales_transform_df,410,function,R/scales-.r,81,87
+ggplot2,vars,411,function,NA,NA,NA
+ggplot2,scale_alpha_continuous,412,function,R/scale-alpha.r,21,23
+ggplot2,fortify.summary.glht,413,function,R/fortify-multcomp.r,62,73
+ggplot2,Stat,414,Stat / ggproto / gg,NA,NA,NA
+ggplot2,as_gg_data_frame,415,function,R/utilities.r,445,448
+ggplot2,coord_sf,416,function,R/coord-sf.R,415,463
+ggplot2,cut_width,417,function,R/utilities-break.r,50,85
+ggplot2,mean_se,418,function,R/stat-summary.r,234,239
+ggplot2,stairstep,419,function,R/geom-path.r,306,331
+ggplot2,guide_gengrob.colorbar,420,function,R/guide-colorbar.r,262,546
+ggplot2,r_rescale,421,function,R/coord-polar.r,349,352
+ggplot2,GeomTile,422,GeomTile / GeomRect / Geom / ggproto / gg,NA,NA,NA
+ggplot2,theme_minimal,423,function,R/theme-defaults.r,394,415
+ggplot2,geom_point,424,function,R/geom-point.r,83,102
+ggplot2,autoplot.default,425,function,R/autoplot.r,17,20
+ggplot2,split_matrix,426,function,R/performance.R,29,34
+ggplot2,scale_fill_discrete,427,function,R/scale-hue.r,61,65
+ggplot2,resolution,428,function,R/utilities-resolution.r,20,30
+ggplot2,is.margin,429,function,R/margins.R,11,13
+ggplot2,CoordFixed,430,CoordFixed / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+ggplot2,StatDensity,431,StatDensity / Stat / ggproto / gg,NA,NA,NA
+ggplot2,makeContext.dotstackGrob,432,function,R/grob-dotstack.r,27,48
+ggplot2,scale_colour_brewer,433,function,R/scale-brewer.r,68,70
+ggplot2,ggplot_build,434,function,R/plot-build.r,23,25
+ggplot2,id,435,function,R/compat-plyr.R,88,126
+ggplot2,GeomBoxplot,436,GeomBoxplot / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_fill_ordinal,437,function,R/scale-viridis.r,65,73
+ggplot2,expand_scale,438,function,R/utilities.r,239,246
+ggplot2,GeomLinerange,439,GeomLinerange / Geom / ggproto / gg,NA,NA,NA
+ggplot2,ggplot_add.labels,440,function,R/plot-construction.r,113,115
+ggplot2,scale_colour_continuous,441,function,R/scale-colour.r,26,34
+ggplot2,aes,442,function,R/aes.r,77,81
+ggplot2,qplot,443,function,R/quick-plot.r,62,161
+ggplot2,scale_colour_datetime,444,function,R/zxx.r,16,30
+ggplot2,StatSfCoordinates,445,StatSfCoordinates / Stat / ggproto / gg,NA,NA,NA
+ggplot2,mean_sdl,446,function,R/stat-summary.r,197,208
+ggplot2,GeomCol,447,GeomCol / GeomRect / Geom / ggproto / gg,NA,NA,NA
+ggplot2,modifyList,448,function,R/performance.R,51,53
+ggplot2,scale_size_discrete,449,function,R/scale-size.r,62,65
+ggplot2,GeomAbline,450,GeomAbline / Geom / ggproto / gg,NA,NA,NA
+ggplot2,collide,451,function,R/position-collide.r,33,67
+ggplot2,validate_element,452,function,R/theme-elements.r,380,402
+ggplot2,ggproto_parent,453,function,R/ggproto.r,97,99
+ggplot2,element_line,454,function,R/theme-elements.r,83,93
+ggplot2,poly_dir,455,function,R/stat-contour.r,110,114
+ggplot2,draw_key_polygon,456,function,R/legend-draw.r,68,88
+ggplot2,element_render,457,function,R/theme-elements.r,144,155
+ggplot2,translate_shape_string,458,function,R/geom-point.r,140,227
+ggplot2,scale_x_sqrt,459,function,R/scale-continuous.r,174,176
+ggplot2,draw_key_rect,460,function,R/legend-draw.r,59,65
+ggplot2,absoluteGrob,461,function,R/grob-absolute.r,8,17
+ggplot2,weave_tables_row,462,function,R/facet-wrap.r,488,499
+ggplot2,guide_grid,463,function,R/guides-grid.r,6,34
+ggplot2,simplify_formula,464,function,R/compat-plyr.R,201,220
+ggplot2,manual_scale,465,function,R/scale-manual.r,104,121
+ggplot2,tolower,466,function,R/utilities.r,315,317
+ggplot2,cut_number,467,function,R/utilities-break.r,30,35
+ggplot2,wrap_hmisc,468,function,R/stat-summary.r,195,209
+ggplot2,plot.ggplot,469,function,R/plot.r,156,180
+ggplot2,scale_colour_grey,470,function,R/scale-grey.r,28,31
+ggplot2,grobHeight.absoluteGrob,471,function,R/grob-absolute.r,21,23
+ggplot2,is_position_aes,472,function,R/aes.r,183,185
+ggplot2,scale_shape_continuous,473,function,R/scale-shape.r,57,59
+ggplot2,StatBin2d,474,StatBin2d / Stat / ggproto / gg,NA,NA,NA
+ggplot2,geom_linerange,475,function,R/geom-linerange.r,60,79
+ggplot2,geom_raster,476,function,R/geom-raster.r,11,40
+ggplot2,is.facet,477,function,R/facet-.r,237,237
+ggplot2,element_rect,478,function,R/theme-elements.r,64,73
+ggplot2,is.layer,479,function,R/layer.r,374,374
+ggplot2,GeomLogticks,480,GeomLogticks / Geom / ggproto / gg,NA,NA,NA
+ggplot2,matched_aes,481,function,R/guides-.r,332,338
+ggplot2,bins,482,function,R/bin.R,1,22
+ggplot2,layout_null,483,function,R/facet-.r,439,442
+ggplot2,mean_cl_normal,484,function,R/stat-summary.r,197,208
+ggplot2,fortify.grouped_df,485,function,R/fortify.r,33,39
+ggplot2,fortify.function,486,function,R/fortify.r,28,28
+ggplot2,ggplot_add.Facet,487,function,R/plot-construction.r,143,146
+ggplot2,draw_key_vline,488,function,R/legend-draw.r,222,231
+ggplot2,CoordQuickmap,489,CoordQuickmap / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+ggplot2,label_just_defaults.legend,490,function,R/guide-legend.r,724,745
+ggplot2,discrete_range,491,function,R/range.r,31,33
+ggplot2,stat_sf,492,function,R/stat-sf.R,22,39
+ggplot2,panel_cols,493,function,R/facet-.r,507,510
+ggplot2,coord_flip,494,function,R/coord-flip.r,28,34
+ggplot2,geom_errorbarh,495,function,R/geom-errorbarh.r,24,43
+ggplot2,%|W|%,496,function,R/utilities.r,14,16
+ggplot2,guides_merge,497,function,R/guides-.r,204,216
+ggplot2,scale_shape,498,function,R/scale-shape.r,37,39
+ggplot2,ggplot_add.Scale,499,function,R/plot-construction.r,108,111
+ggplot2,grobHeight.zeroGrob,500,function,R/grob-null.r,21,21
+ggplot2,geom_jitter,501,function,R/geom-jitter.r,32,61
+ggplot2,compute_grob_dimensions,502,function,R/utilities-table.r,11,38
+ggplot2,with_seed_null,503,function,R/utilities.r,424,430
+ggplot2,ylim,504,function,R/limits.r,67,69
+ggplot2,GeomDensity,505,GeomDensity / GeomArea / GeomRibbon / Geom / ggproto / gg,NA,NA,NA
+ggplot2,find_names,506,function,R/labeller.r,171,177
+ggplot2,element_text,507,function,R/theme-elements.r,110,121
+ggplot2,stat_qq,508,function,R/stat-qq.r,48,71
+ggplot2,map_data,509,function,R/fortify-map.r,77,81
+ggplot2,keep_mid_true,510,function,R/geom-path.r,221,233
+ggplot2,ggplot.function,511,function,R/plot.r,106,110
+ggplot2,stat,512,function,R/aes-calculated.r,24,26
+ggplot2,geom_rect,513,function,R/geom-rect.r,3,24
+ggplot2,plot_dim,514,function,R/save.r,99,127
+ggplot2,df_rows,515,function,R/performance.R,42,44
+ggplot2,is.ggplot,516,function,R/plot.r,123,123
+ggplot2,xlab,517,function,R/labels.r,82,84
+ggplot2,GeomRibbon,518,GeomRibbon / Geom / ggproto / gg,NA,NA,NA
+ggplot2,fortify.Polygon,519,function,R/fortify-spatial.r,69,75
+ggplot2,geom_crossbar,520,function,R/geom-crossbar.r,3,24
+ggplot2,ggplot_add.guides,521,function,R/plot-construction.r,117,119
+ggplot2,draw_key_path,522,function,R/legend-draw.r,130,146
+ggplot2,transform_value,523,function,R/coord-transform.r,156,160
+ggplot2,obj_desc,524,function,R/layer.r,401,424
+ggplot2,geom_vline,525,function,R/geom-vline.r,6,40
+ggplot2,labelGrob,526,function,R/geom-label.R,107,121
+ggplot2,scale_fill_brewer,527,function,R/scale-brewer.r,74,76
+ggplot2,geom_bar,528,function,R/geom-bar.r,74,105
+ggplot2,weave_tables_col,529,function,R/facet-wrap.r,476,487
+ggplot2,rename,530,function,R/compat-plyr.R,41,51
+ggplot2,pos_dodge,531,function,R/position-dodge.r,131,156
+ggplot2,justify_grobs,532,function,R/margins.R,234,289
+ggplot2,[[.ggproto,533,function,R/ggproto.r,151,158
+ggplot2,summarise_coord,534,function,R/summarise-plot.R,98,116
+ggplot2,guide_legend,535,function,R/guide-legend.r,124,196
+ggplot2,df_col,536,function,R/performance.R,40,40
+ggplot2,ggplot_add.theme,537,function,R/plot-construction.r,103,106
+ggplot2,wrap_as_facets_list,538,function,R/facet-wrap.r,131,134
+ggplot2,interp,539,function,R/coord-munch.r,72,75
+ggplot2,StatSummary,540,StatSummary / Stat / ggproto / gg,NA,NA,NA
+ggplot2,just_dir,541,function,R/geom-text.r,218,223
+ggplot2,combine_vars,542,function,R/facet-.r,530,574
+ggplot2,scales_add_missing,543,function,R/scales-.r,110,121
+ggplot2,new_aesthetic,544,function,R/aes.r,85,99
+ggplot2,eval_facet,545,function,R/facet-.r,424,437
+ggplot2,rel,546,function,R/theme-elements.r,131,133
+ggplot2,guide_merge,547,function,R/guides-.r,319,319
+ggplot2,.element_tree,548,list,NA,NA,NA
+ggplot2,scale_discrete_identity,549,function,R/scale-identity.r,118,123
+ggplot2,scale_y_sqrt,550,function,R/scale-continuous.r,179,181
+ggplot2,lower_ascii,551,character,NA,NA,NA
+ggplot2,StatBin,552,StatBin / Stat / ggproto / gg,NA,NA,NA
+ggplot2,add_margins,553,function,R/margins.R,106,155
+ggplot2,stat_bin_2d,554,function,R/stat-bin2d.r,15,40
+ggplot2,as_quoted,555,function,R/facet-.r,325,339
+ggplot2,.base_to_ggplot,556,character,NA,NA,NA
+ggplot2,print.ggplot,557,function,R/plot.r,156,180
+ggplot2,stat_unique,558,function,R/stat-unique.r,12,31
+ggplot2,stat_summary,559,function,R/stat-summary.r,104,133
+ggplot2,scale_fill_datetime,560,function,R/zxx.r,64,78
+ggplot2,is_dotted_var,561,function,R/aes-calculated.r,31,33
+ggplot2,plot_dev,562,function,R/save.r,129,168
+ggplot2,max_width,563,function,R/facet-.r,475,479
+ggplot2,ScaleContinuousDate,564,ScaleContinuousDate / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ggplot2,scale_size_area,565,function,R/scale-size.r,88,92
+ggplot2,adjust_breaks,566,function,R/stat-bin2d.r,138,146
+ggplot2,stat_smooth,567,function,R/stat-smooth.r,37,72
+ggplot2,unrowname,568,function,R/compat-plyr.R,16,25
+ggplot2,scale_color_distiller,569,function,R/scale-brewer.r,80,90
+ggplot2,dist_polar,570,function,R/coord-munch.r,108,161
+ggplot2,guide_axis,571,function,R/guides-axis.r,7,148
+ggplot2,ggplot.default,572,function,R/plot.r,80,103
+ggplot2,guides_gengrob,573,function,R/guides-.r,224,235
+ggplot2,geom_contour,574,function,R/geom-contour.r,43,68
+ggplot2,guides_build,575,function,R/guides-.r,238,298
+ggplot2,PositionDodge,576,PositionDodge / Position / ggproto / gg,NA,NA,NA
+ggplot2,fortify.Lines,577,function,R/fortify-spatial.r,87,100
+ggplot2,f_as_facets,578,function,R/facet-.r,383,397
+ggplot2,stat_bin2d,579,function,R/stat-bin2d.r,15,40
+ggplot2,scale_shape_ordinal,580,function,R/scale-shape.r,49,52
+ggplot2,aes_to_scale,581,function,R/aes.r,175,180
+ggplot2,flip_labels,582,function,R/coord-flip.r,81,90
+ggplot2,StatSummaryHex,583,StatSummaryHex / Stat / ggproto / gg,NA,NA,NA
+ggplot2,element_grob.element_rect,584,function,R/theme-elements.r,180,190
+ggplot2,geom_curve,585,function,R/geom-curve.r,4,35
+ggplot2,geom_area,586,function,R/geom-ribbon.r,124,140
+ggplot2,scale_alpha,587,function,R/scale-alpha.r,21,23
+ggplot2,summarise_layers,588,function,R/summarise-plot.R,121,137
+ggplot2,stat_summary_2d,589,function,R/stat-summary-2d.r,39,68
+ggplot2,StatFunction,590,StatFunction / Stat / ggproto / gg,NA,NA,NA
+ggplot2,PositionStack,591,PositionStack / Position / ggproto / gg,NA,NA,NA
+ggplot2,scale_color_viridis_c,592,function,R/scale-viridis.r,77,93
+ggplot2,add_group,593,function,R/grouping.r,11,28
+ggplot2,scale_color_viridis_d,594,function,R/scale-viridis.r,53,61
+ggplot2,draw_key_vpath,595,function,R/legend-draw.r,150,160
+ggplot2,scale_size_identity,596,function,R/scale-identity.r,109,114
+ggplot2,drawDetails.zeroGrob,597,function,R/grob-null.r,24,24
+ggplot2,.DollarNames.ggproto,598,function,R/ggproto.r,135,148
+ggplot2,fortify.default,599,function,R/fortify.r,41,53
+ggplot2,fortify.NULL,600,function,R/fortify.r,26,26
+ggplot2,expand_default,601,function,R/coord-.r,153,155
+ggplot2,geom_line,602,function,R/geom-path.r,238,254
+ggplot2,annotate,603,function,R/annotation.r,37,71
+ggplot2,GeomContour,604,GeomContour / GeomPath / Geom / ggproto / gg,NA,NA,NA
+ggplot2,collide_setup,605,function,R/position-collide.r,3,31
+ggplot2,bin_breaks_width,606,function,R/bin.R,51,95
+ggplot2,scale_size_manual,607,function,R/scale-manual.r,75,77
+ggplot2,compute_density,608,function,R/stat-density.r,83,114
+ggplot2,ScaleDiscreteIdentity,609,ScaleDiscreteIdentity / ScaleDiscrete / Scale / ggproto / gg,NA,NA,NA
+ggplot2,is_sf,610,function,R/layer-sf.R,56,58
+ggplot2,margin_width,611,function,R/margins.R,21,25
+ggplot2,GeomQuantile,612,GeomQuantile / GeomPath / Geom / ggproto / gg,NA,NA,NA
+ggplot2,tapply_df,613,function,R/stat-summary-2d.r,119,133
+ggplot2,theme_dark,614,function,R/theme-defaults.r,353,390
+ggplot2,element_grob.element_blank,615,function,R/theme-elements.r,177,177
+ggplot2,GeomErrorbarh,616,GeomErrorbarh / Geom / ggproto / gg,NA,NA,NA
+ggplot2,is.constant,617,function,R/quick-plot.r,167,170
+ggplot2,geom_count,618,function,R/geom-count.r,44,63
+ggplot2,.store,619,list,NA,NA,NA
+ggplot2,geom_column,620,function,R/layer-sf.R,43,53
+ggplot2,scale_linetype_continuous,621,function,R/scale-linetype.r,38,40
+ggplot2,fetch_ggproto,622,function,R/ggproto.r,106,131
+ggplot2,stat_sum,623,function,R/stat-sum.r,10,29
+ggplot2,Range,624,Range / ggproto / gg,NA,NA,NA
+ggplot2,%||%,625,function,R/utilities.r,10,12
+ggplot2,simplify,626,function,R/facet-.r,341,357
+ggplot2,geom_blank,627,function,R/geom-blank.r,13,29
+ggplot2,titleGrob,628,function,R/margins.R,176,204
+ggplot2,convertInd,629,function,R/facet-wrap.r,472,474
+ggplot2,max_height,630,function,R/facet-.r,468,472
+ggplot2,GeomText,631,GeomText / Geom / ggproto / gg,NA,NA,NA
+ggplot2,scale_colour_discrete,632,function,R/scale-hue.r,53,57
+ggplot2,scale_y_datetime,633,function,R/scale-date.r,165,197
+ggplot2,scale_color_grey,634,function,R/scale-grey.r,28,31
+ggplot2,make_summary_fun,635,function,R/stat-summary-bin.R,67,101
+ggplot2,contour_lines,636,function,R/stat-contour.r,69,103
+ggplot2,backport_unit_methods,637,function,R/backports.R,15,15
+ggplot2,theme_test,638,function,R/theme-defaults.r,512,636
+ggplot2,scale_y_log10,639,function,R/scale-continuous.r,159,161
+ggplot2,create_layout,640,function,R/layout.R,9,11
+ggplot2,position_jitter,641,function,R/position-jitter.r,48,58
+ggplot2,guide_merge.legend,642,function,R/guide-legend.r,232,240
+ggplot2,modify_list,643,function,R/performance.R,47,50
+ggplot2,annotation_custom,644,function,R/annotation-custom.r,44,59
+ggplot2,scale_y_discrete,645,function,R/scale-discrete-.r,62,68
+ggplot2,is_complete,646,function,R/utilities.r,136,142
+ggplot2,Layout,647,Layout / ggproto / gg,NA,NA,NA
+ggplot2,GeomPointrange,648,GeomPointrange / Geom / ggproto / gg,NA,NA,NA
+ggplot2,stat_bin,649,function,R/stat-bin.r,43,77
+ggplot2,len0_null,650,function,R/theme-elements.r,159,162
+ggplot2,guide_geom.legend,651,function,R/guide-legend.r,243,298
+ggplot2,StatContour,652,StatContour / Stat / ggproto / gg,NA,NA,NA
+ggplot2,is.Coord,653,function,R/coord-.r,151,151
+ggplot2,theme_grey,654,function,R/theme-defaults.r,98,235
+ggplot2,dist_euclidean,655,function,R/coord-munch.r,79,83
+ggplot2,find_origin,656,function,R/utilities-break.r,88,91
+ggplot2,set_sec_axis,657,function,R/axis-secondary.R,105,112
+ggplot2,ggplot_gtable.ggplot_built,658,function,R/plot-build.r,162,364
+ggplot2,rd_aesthetics_item,659,function,R/utilities-help.r,22,30
+ggplot2,position_dodge,660,function,R/position-dodge.r,76,81
+ggplot2,CoordSf,661,CoordSf / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+ggplot2,predictdf,662,function,R/stat-smooth-methods.r,9,9
+ggplot2,var_list,663,function,R/utilities.r,389,396
+ggplot2,[.uneval,664,function,R/aes.r,123,125
+ggplot2,is_theme_complete,665,function,R/theme.r,409,409
+ggplot2,stat_ecdf,666,function,R/stat-ecdf.r,36,59
+ggplot2,is.derived,667,function,R/axis-secondary.R,120,122
+ggplot2,validate_guide,668,function,R/guides-.r,152,160
+ggplot2,mat_2_df,669,function,R/performance.R,36,38
+ggplot2,geom_rug,670,function,R/geom-rug.r,53,78
+ggplot2,GeomBlank,671,GeomBlank / Geom / ggproto / gg,NA,NA,NA
+ggplot2,stat_density2d,672,function,R/stat-density-2d.r,16,41
+ggplot2,[[<-.uneval,673,function,R/aes.r,129,131
+ggplot2,scale_fill_gradient,674,function,R/scale-gradient.r,65,69
+ggplot2,scale_type.ordered,675,function,R/scale-type.R,81,81
+ggplot2,xlim,676,function,R/limits.r,61,63
+ggplot2,stat_ydensity,677,function,R/stat-ydensity.r,21,52
+ggplot2,guide_merge.colorbar,678,function,R/guide-colorbar.r,236,238
+ggplot2,PositionDodge2,679,PositionDodge2 / PositionDodge / Position / ggproto / gg,NA,NA,NA
+ggplot2,facet_grid,680,function,R/facet-grid-.r,116,158
+ggplot2,print.uneval,681,function,R/aes.r,107,120
+ggplot2,build_strip,682,function,R/labeller.r,486,566
+ggplot2,dapply,683,function,R/compat-plyr.R,332,346
+ggplot2,make_scale,684,function,R/limits.r,95,98
+ggplot2,bin_loc,685,function,R/stat-bin2d.r,148,158
+ggplot2,scale_radius,686,function,R/scale-size.r,47,53
+ggplot2,scale_x_date,687,function,R/scale-date.r,60,90
+ggplot2,position_jitterdodge,688,function,R/position-jitterdodge.R,20,32
+ggplot2,GeomRect,689,GeomRect / Geom / ggproto / gg,NA,NA,NA
+ggplot2,update_theme,690,function,R/theme.r,486,509
+ggplot2,scale_colour_date,691,function,R/zxx.r,35,49
+ggplot2,print.theme,692,function,R/theme.r,651,651
+ggplot2,mapped_aesthetics,693,function,R/aes.r,329,336
+ggplot2,scale_alpha_manual,694,function,R/scale-manual.r,93,95
+ggplot2,draw_key_dotplot,695,function,R/legend-draw.r,164,172
+ggplot2,mproject,696,function,R/coord-map.r,344,350
+ggplot2,rescale01,697,function,R/utilities.r,174,177
+ggplot2,rect_to_poly,698,function,R/geom-rect.r,83,88
+ggplot2,widthDetails.titleGrob,699,function,R/margins.R,207,209
+ggplot2,scales_train_df,700,function,R/scales-.r,65,69
+ggplot2,scale_colour_ordinal,701,function,R/scale-viridis.r,53,61
+ggplot2,trim,702,function,R/ggproto.r,319,322
+ggplot2,is.formula,703,function,R/utilities.r,366,366
+ggplot2,ScaleDiscretePosition,704,ScaleDiscretePosition / ScaleDiscrete / Scale / ggproto / gg,NA,NA,NA
+ggplot2,remove_missing,705,function,R/utilities.r,84,109
+ggplot2,theme_set,706,function,R/theme-current.R,74,84
+ggplot2,grid.draw.ggplot,707,function,R/save.r,171,173
+ggplot2,ggplot_add.uneval,708,function,R/plot-construction.r,121,129
+ggplot2,sanitise_dim,709,function,R/facet-wrap.r,424,447
+ggplot2,scale_alpha_date,710,function,R/scale-alpha.r,57,59
+ggplot2,scale_linetype_discrete,711,function,R/scale-linetype.r,31,34
+ggplot2,update_labels,712,function,R/labels.r,13,17
+ggplot2,collapse_labels_lines,713,function,R/labeller.r,90,93
+ggplot2,summarise_by_x,714,function,R/stat-summary.r,163,169
+ggplot2,scale_size,715,function,R/scale-size.r,37,43
+ggplot2,fortify.tbl_df,716,function,R/fortify.r,17,17
+ggplot2,StatSummaryBin,717,StatSummaryBin / Stat / ggproto / gg,NA,NA,NA
+ggplot2,autolayer,718,function,R/autolayer.r,12,14
+ggplot2,combine_elements,719,function,R/theme.r,619,642
+ggplot2,layer_scales,720,function,R/plot-build.r,122,132
+ggplot2,GeomSegment,721,GeomSegment / Geom / ggproto / gg,NA,NA,NA
+ggplot2,StatDensity2d,722,StatDensity2d / Stat / ggproto / gg,NA,NA,NA
+ggplot2,label_both,723,function / labeller,R/labeller.r,121,138
+ggplot2,fortify.SpatialPolygonsDataFrame,724,function,R/fortify-spatial.r,24,39
+ggplot2,predictdf.loess,725,function,R/stat-smooth-methods.r,45,57
+ggplot2,print.ggproto_method,726,function,R/ggproto.r,325,327
+ggplot2,quickplot,727,function,R/quick-plot.r,62,161
+ggplot2,scale_x_log10,728,function,R/scale-continuous.r,154,156
+ggplot2,parse_dpi,729,function,R/save.r,84,97
+ggplot2,heightDetails.zeroGrob,730,function,R/grob-null.r,15,15
+ggplot2,CoordCartesian,731,CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+ggplot2,scale_type.sfc,732,function,R/layer-sf.R,63,63
+ggplot2,as_facets,733,function,R/facet-.r,369,382
+ggplot2,theme_replace,734,function,R/theme-current.R,94,96
+ggplot2,scale_type.Date,735,function,R/scale-type.R,90,90
+ggplot2,datetime_scale,736,function,R/scale-date.r,259,315
+ggplot2,GeomViolin,737,GeomViolin / Geom / ggproto / gg,NA,NA,NA
+ggplot2,limits.character,738,function,R/limits.r,101,103
+ggplot2,scale_type.numeric,739,function,R/scale-type.R,93,93
+ggplot2,find_args,740,function,R/utilities.r,410,418
+ggplot2,+.gg,741,function,R/plot-construction.r,40,58
+ggplot2,render_axes,742,function,R/facet-.r,597,618
+ggplot2,stat_density_2d,743,function,R/stat-density-2d.r,16,41
+ggplot2,Coord,744,Coord / ggproto / gg,NA,NA,NA
+ggplot2,grid_as_facets_list,745,function,R/facet-grid-.r,161,188
+ggplot2,theme_gray,746,function,R/theme-defaults.r,98,235
+ggplot2,geom_qq_line,747,function,R/stat-qq-line.R,7,36
+ggplot2,guide_gengrob,748,function,R/guides-.r,327,327
+ggplot2,scale_fill_manual,749,function,R/scale-manual.r,69,71
+ggplot2,annotation_map,750,function,R/annotation-map.r,32,48
+ggplot2,scale_shape_identity,751,function,R/scale-identity.r,82,87
+ggplot2,coord_equal,752,function,R/coord-fixed.r,25,32
+ggplot2,deparse2,753,function,R/utilities.r,368,375
+ggplot2,match_calculated_aes,754,character,NA,NA,NA
+ggplot2,FacetWrap,755,FacetWrap / Facet / ggproto / gg,NA,NA,NA
+ggplot2,is_finite,756,function,R/utilities.r,128,134
+ggplot2,rename_data,757,function,R/coord-polar.r,330,336
+ggplot2,toupper,758,function,R/utilities.r,319,321
+ggplot2,fortify.map,759,function,R/fortify-map.r,26,38
+ggplot2,scale_linetype_manual,760,function,R/scale-manual.r,87,89
+ggplot2,GeomStep,761,GeomStep / GeomPath / Geom / ggproto / gg,NA,NA,NA
+ggplot2,upper_ascii,762,character,NA,NA,NA
+ggplot2,strip_dots,763,function,R/aes-calculated.r,59,85
+ggplot2,ggproto_formals,764,function,R/ggproto.r,351,351
+ggplot2,format.ggproto,765,function,R/ggproto.r,249,280
+ggplot2,is.rel,766,function,R/theme-elements.r,141,141
+ggplot2,predictdf.default,767,function,R/stat-smooth-methods.r,12,23
+ggplot2,ScaleContinuousIdentity,768,ScaleContinuousIdentity / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ggplot2,scale_fill_identity,769,function,R/scale-identity.r,73,78
+ggplot2,coord_trans,770,function,R/coord-transform.r,81,108
+ggplot2,autolayer.default,771,function,R/autolayer.r,17,20
+ggplot2,GeomPoint,772,GeomPoint / Geom / ggproto / gg,NA,NA,NA
+ggplot2,fortify.Polygons,773,function,R/fortify-spatial.r,51,64
+ggplot2,as.list.ggproto,774,function,R/ggproto.r,199,212
+ggplot2,aes_all,775,function,R/aes.r,285,295
+ggplot2,draw_key_text,776,function,R/legend-draw.r,197,209
+ggplot2,interleave.unit,777,function,R/utilities-matrix.r,17,19
+ggplot2,draw_key_blank,778,function,R/legend-draw.r,92,94
+ggplot2,ggplot_global,779,environment,NA,NA,NA
+ggplot2,check_layout,780,function,R/facet-.r,444,454
+ggplot2,find_line_formula,781,function,R/coord-munch.r,173,180
+ggplot2,new_data_frame,782,function,R/performance.R,3,19
+ggplot2,fortify.SpatialPolygons,783,function,R/fortify-spatial.r,44,46
+ggplot2,as_facets_list,784,function,R/facet-.r,277,315
+ggplot2,$<-.uneval,785,function,R/aes.r,133,138
+ggplot2,stat_ellipse,786,function,R/stat-ellipse.R,43,68
+ggplot2,StatQq,787,StatQq / Stat / ggproto / gg,NA,NA,NA
+ggplot2,geom_quantile,788,function,R/geom-quantile.r,30,56
+ggplot2,sf_rescale01_x,789,function,R/coord-sf.R,381,383
+ggplot2,geom_qq,790,function,R/stat-qq.r,48,71
+ggplot2,geom_density,791,function,R/geom-density.r,48,68
+ggplot2,widthDetails.zeroGrob,792,function,R/grob-null.r,12,12
+ggplot2,scale_color_continuous,793,function,R/scale-colour.r,26,34
+ggplot2,compute_just,794,function,R/geom-text.r,208,216
+ggplot2,.onAttach,795,function,R/zzz.r,1,17
+ggplot2,Geom,796,Geom / ggproto / gg,NA,NA,NA
+ggplot2,pos_dodge2,797,function,R/position-dodge2.r,69,129
+ggplot2,build_guides,798,function,R/guides-.r,98,136
+ggplot2,limits,799,function,R/limits.r,82,82
+ggplot2,rotate_just,800,function,R/margins.R,300,332
+ggplot2,ggplot,801,function,R/plot.r,74,77
+ggplot2,PositionIdentity,802,PositionIdentity / Position / ggproto / gg,NA,NA,NA
+ggplot2,geom_histogram,803,function,R/geom-histogram.r,87,112
+ggplot2,scale_y_date,804,function,R/scale-date.r,94,124
+ggplot2,spiral_arc_length,805,function,R/coord-munch.r,194,200
+ggplot2,merge_element.default,806,function,R/theme.r,594,596
+ggplot2,empty,807,function,R/utilities.r,345,347
+ggplot2,ggplot_add.data.frame,808,function,R/plot-construction.r,98,101
+ggplot2,StatUnique,809,StatUnique / Stat / ggproto / gg,NA,NA,NA
+ggplot2,scale_discrete_manual,810,function,R/scale-manual.r,99,101
+ggplot2,draw_key_label,811,function,R/legend-draw.r,213,218
+ggplot2,StatSf,812,StatSf / Stat / ggproto / gg,NA,NA,NA
+ggplot2,is.sec_axis,813,function,R/axis-secondary.R,101,103
+ggplot2,theta_rescale,814,function,R/coord-polar.r,343,347
+ggplot2,snakeize,815,function,R/utilities.r,330,335
+ggplot2,scale_alpha_datetime,816,function,R/scale-alpha.r,50,52
+ggplot2,revalue,817,function,R/compat-plyr.R,184,199
+ggplot2,scale_alpha_discrete,818,function,R/scale-alpha.r,31,34
+ggplot2,guide_geom.colorbar,819,function,R/guide-colorbar.r,242,259
+ggplot2,geom_sf,820,function,R/geom-sf.R,169,189
+ggplot2,.all_aesthetics,821,character,NA,NA,NA
+ggplot2,rd_aesthetics,822,function,R/utilities-help.r,2,20
+ggplot2,Facet,823,Facet / ggproto / gg,NA,NA,NA
+ggplot2,scale_size_ordinal,824,function,R/scale-size.r,70,82
+ggplot2,scale_x_datetime,825,function,R/scale-date.r,128,160
+ggplot2,geom_smooth,826,function,R/geom-smooth.r,78,108
+ggplot2,StatYdensity,827,StatYdensity / Stat / ggproto / gg,NA,NA,NA
+ggplot2,scale_color_identity,828,function,R/scale-identity.r,64,69
+ggplot2,%+replace%,829,function,R/theme-current.R,100,108
+ggplot2,has_name,830,function,R/utilities.r,300,307
+ggplot2,is_facets,831,function,R/facet-.r,402,410
+ggplot2,expand_limits,832,function,R/limits.r,145,154
+ggplot2,limits.POSIXct,833,function,R/limits.r,114,117
+ggplot2,scale_x_discrete,834,function,R/scale-discrete-.r,53,59
+ggplot2,ggplotGrob,835,function,R/plot-build.r,371,373
+ggplot2,print.ggplot2_bins,836,function,R/bin.R,27,43
+ggplot2,fortify.lm,837,function,R/fortify-lm.r,76,87
+ggplot2,scale_linetype,838,function,R/scale-linetype.r,31,34
+ggplot2,grobY.absoluteGrob,839,function,R/grob-absolute.r,38,41
+ggplot2,object_summaries,840,function,R/ggproto.r,284,306
+ggplot2,borders,841,function,R/fortify-map.r,130,135
+ggplot2,aes_auto,842,function,R/aes.r,303,327
+ggplot2,merge_element.element,843,function,R/theme.r,599,613
+ggplot2,descent_cache,844,environment,NA,NA,NA
+ggplot2,is_labeller,845,function,R/labeller.r,247,247
+ggplot2,legend_position,846,function,R/guides-.r,139,149
+ggplot2,print.element,847,function,R/theme-elements.r,125,125
+ggplot2,ScaleContinuousDatetime,848,ScaleContinuousDatetime / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ggplot2,bin_vector,849,function,R/bin.R,121,161
+ggplot2,check_subclass,850,function,R/layer.r,378,399

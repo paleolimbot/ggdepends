@@ -1,0 +1,19 @@
+object_name,index,foreign_pkg,foreign_object,foreign_object_class,foreign_src_file,foreign_src_line_start,foreign_src_line_end
+Position,78,ggstance,PositionStackv,PositionStackv / Position / ggproto / gg,NA,NA,NA
+Position,78,ggstance,PositionDodgev,PositionDodgev / Position / ggproto / gg,NA,NA,NA
+Position,78,ggstance,PositionFillv,PositionFillv / PositionStackv / Position / ggproto / gg,NA,NA,NA
+Position,78,ggstance,PositionJitterdodgev,PositionJitterdodgev / Position / ggproto / gg,NA,NA,NA
+Position,78,ggstance,PositionDodge2v,PositionDodge2v / PositionDodgev / Position / ggproto / gg,NA,NA,NA
+Stat,414,ggstance,StatSummaryh,StatSummaryh / StatSummary / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggstance,StatXdensity,StatXdensity / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggstance,StatCounth,StatCounth / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggstance,StatBinh,StatBinh / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggstance,StatBoxploth,StatBoxploth / Stat / ggproto / gg,NA,NA,NA
+GeomErrorbarh,616,ggstance,GeomErrorbarh,GeomErrorbarh / Geom / ggproto / gg,NA,NA,NA
+GeomRect,689,ggstance,GeomBarh,GeomBarh / GeomRect / Geom / ggproto / gg,NA,NA,NA
+GeomRect,689,ggstance,GeomColh,GeomColh / GeomRect / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggstance,GeomCrossbarh,GeomCrossbarh / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggstance,GeomViolinh,GeomViolinh / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggstance,GeomPointrangeh,GeomPointrangeh / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggstance,GeomLinerangeh,GeomLinerangeh / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggstance,GeomBoxploth,GeomBoxploth / Geom / ggproto / gg,NA,NA,NA

@@ -1,0 +1,1245 @@
+target_pkg,object_name,index,foreign_pkg,foreign_object,foreign_src_file,foreign_src_line_start,foreign_src_line_end,call_text
+ggplot2,standardise_aes_names,5,ggplot2,discrete_scale,R/scale-.r,634,670,standardise_aes_names(aesthetics)
+ggplot2,standardise_aes_names,5,ggplot2,continuous_scale,R/scale-.r,562,606,standardise_aes_names(aesthetics)
+ggplot2,standardise_aes_names,5,ggplot2,rename_aes,R/aes.r,162,172,standardise_aes_names(names(x))
+ggplot2,find_panel,6,ggplot2,ggplot_gtable.ggplot_built,R/plot-build.r,162,364,find_panel(plot_table)
+ggplot2,facet_wrap,7,ggplot2,qplot,R/quick-plot.r,62,161,facet_wrap(facets)
+ggplot2,facet_wrap,7,ggplot2,quickplot,R/quick-plot.r,62,161,facet_wrap(facets)
+ggplot2,aes_q,10,ggplot2,borders,R/fortify-map.r,130,135,"aes_(~long, ~lat, group = ~group)"
+ggplot2,labeller,12,ggplot2,build_strip,R/labeller.r,486,566,labeller(label_df)
+ggplot2,ggplot_add,14,ggplot2,add_ggplot,R/plot-construction.r,65,72,"ggplot_add(object, p, objectname)"
+ggplot2,merge_element,23,ggplot2,add_theme,R/theme.r,429,461,"merge_element(y, x)"
+ggplot2,geom_polygon,37,ggplot2,borders,R/fortify-map.r,130,135,"geom_polygon(aes_(~long, ~lat, group = ~group), data = df, fill = fill, 
+    colour = colour, ..., inherit.aes = FALSE)"
+ggplot2,scale_colour_viridis_c,43,ggplot2,scale_colour_continuous,R/scale-colour.r,26,34,scale_colour_viridis_c(...)
+ggplot2,scale_colour_viridis_c,43,ggplot2,scale_color_continuous,R/scale-colour.r,26,34,scale_colour_viridis_c(...)
+ggplot2,scale_color_gradient,45,ggplot2,scale_colour_continuous,R/scale-colour.r,26,34,scale_colour_gradient(...)
+ggplot2,scale_color_gradient,45,ggplot2,scale_color_continuous,R/scale-colour.r,26,34,scale_colour_gradient(...)
+ggplot2,ggtitle,61,ggplot2,qplot,R/quick-plot.r,62,161,ggtitle(main)
+ggplot2,ggtitle,61,ggplot2,quickplot,R/quick-plot.r,62,161,ggtitle(main)
+ggplot2,waiver,67,ggplot2,fortify.NULL,R/fortify.r,26,26,waiver()
+ggplot2,theme_get,69,ggplot2,theme_update,R/theme-current.R,88,90,theme_get()
+ggplot2,theme_get,69,ggplot2,update_theme,R/theme.r,486,509,theme_get()
+ggplot2,theme_get,69,ggplot2,theme_replace,R/theme-current.R,94,96,theme_get()
+ggplot2,fortify,74,ggplot2,layer,R/layer.r,65,160,fortify(data)
+ggplot2,fortify,74,ggplot2,map_data,R/fortify-map.r,77,81,fortify(map_obj)
+ggplot2,fortify,74,ggplot2,ggplot.default,R/plot.r,80,103,"fortify(data, ...)"
+ggplot2,fortify,74,ggplot2,fortify.Lines,R/fortify-spatial.r,87,100,fortify(lines[[i]])
+ggplot2,fortify,74,ggplot2,fortify.SpatialPolygonsDataFrame,R/fortify-spatial.r,24,39,fortify(unioned)
+ggplot2,fortify,74,ggplot2,fortify.Polygons,R/fortify-spatial.r,51,64,fortify(subpolys[[model@plotOrder[i]]])
+ggplot2,zeroGrob,93,ggplot2,element_grob.element_text,R/theme-elements.r,194,219,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,title_spec,R/margins.R,39,91,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,render_axis,R/coord-.r,159,167,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,element_render,R/theme-elements.r,144,155,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,element_grob.element_blank,R/theme-elements.r,177,177,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,titleGrob,R/margins.R,176,204,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,ggplot_gtable.ggplot_built,R/plot-build.r,162,364,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,build_strip,R/labeller.r,486,566,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,draw_key_blank,R/legend-draw.r,92,94,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,build_guides,R/guides-.r,98,136,zeroGrob()
+ggplot2,zeroGrob,93,ggplot2,build_guides,R/guides-.r,98,136,zeroGrob()
+ggplot2,geom_spoke,99,ggplot2,stat_spoke,R/geom-spoke.r,47,50,geom_spoke(...)
+ggplot2,position_dodge2,117,ggplot2,geom_boxplot,R/geom-boxplot.r,105,154,"position_dodge2(preserve = ""single"")"
+ggplot2,label_value,121,ggplot2,label_parsed,R/labeller.r,154,168,"label_value(labels, multi_line = multi_line)"
+ggplot2,label_value,121,ggplot2,label_bquote,R/labeller.r,197,231,label_value(labels)
+ggplot2,label_value,121,ggplot2,label_context,R/labeller.r,143,149,"label_value(labels, multi_line)"
+ggplot2,label_value,121,ggplot2,label_wrap_gen,R/labeller.r,236,245,"label_value(labels, multi_line = multi_line)"
+ggplot2,label_value,121,ggplot2,label_both,R/labeller.r,121,138,"label_value(labels, multi_line = multi_line)"
+ggplot2,scale_alpha_ordinal,123,ggplot2,scale_alpha_discrete,R/scale-alpha.r,31,34,scale_alpha_ordinal(...)
+ggplot2,guide_train,141,ggplot2,guides_train,R/guides-.r,163,201,"guide_train(guide, scale, output)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_viridis_d,R/scale-viridis.r,53,61,"discrete_scale(aesthetics, ""viridis_d"", viridis_pal(alpha, begin, 
+    end, direction, option), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_hue,R/scale-hue.r,53,57,"discrete_scale(aesthetics, ""hue"", hue_pal(h, c, l, h.start, direction), 
+    na.value = na.value, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_hue,R/scale-hue.r,61,65,"discrete_scale(aesthetics, ""hue"", hue_pal(h, c, l, h.start, direction), 
+    na.value = na.value, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_alpha_ordinal,R/scale-alpha.r,38,45,"discrete_scale(""alpha"", ""alpha_d"", function(n) seq(range[1], 
+    range[2], length.out = n), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_color_hue,R/scale-hue.r,53,57,"discrete_scale(aesthetics, ""hue"", hue_pal(h, c, l, h.start, direction), 
+    na.value = na.value, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_viridis_d,R/scale-viridis.r,65,73,"discrete_scale(aesthetics, ""viridis_d"", viridis_pal(alpha, begin, 
+    end, direction, option), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_linetype_identity,R/scale-identity.r,91,96,"discrete_scale(""linetype"", ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleDiscreteIdentity)"
+ggplot2,discrete_scale,142,ggplot2,scale_color_discrete,R/scale-hue.r,53,57,"discrete_scale(aesthetics, ""hue"", hue_pal(h, c, l, h.start, direction), 
+    na.value = na.value, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_identity,R/scale-identity.r,64,69,"discrete_scale(aesthetics, ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleDiscreteIdentity)"
+ggplot2,discrete_scale,142,ggplot2,scale_color_brewer,R/scale-brewer.r,68,70,"discrete_scale(aesthetics, ""brewer"", brewer_pal(type, palette, 
+    direction), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_grey,R/scale-grey.r,35,38,"discrete_scale(aesthetics, ""grey"", grey_pal(start, end), na.value = na.value, 
+    ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_shape_discrete,R/scale-shape.r,37,39,"discrete_scale(""shape"", ""shape_d"", shape_pal(solid), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_discrete,R/scale-hue.r,61,65,"discrete_scale(aesthetics, ""hue"", hue_pal(h, c, l, h.start, direction), 
+    na.value = na.value, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_brewer,R/scale-brewer.r,68,70,"discrete_scale(aesthetics, ""brewer"", brewer_pal(type, palette, 
+    direction), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_ordinal,R/scale-viridis.r,65,73,"discrete_scale(aesthetics, ""viridis_d"", viridis_pal(alpha, begin, 
+    end, direction, option), ...)"
+ggplot2,discrete_scale,142,ggplot2,manual_scale,R/scale-manual.r,104,121,"discrete_scale(aesthetic, ""manual"", pal, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_grey,R/scale-grey.r,28,31,"discrete_scale(aesthetics, ""grey"", grey_pal(start, end), na.value = na.value, 
+    ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_shape,R/scale-shape.r,37,39,"discrete_scale(""shape"", ""shape_d"", shape_pal(solid), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_brewer,R/scale-brewer.r,74,76,"discrete_scale(aesthetics, ""brewer"", brewer_pal(type, palette, 
+    direction), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_discrete_identity,R/scale-identity.r,118,123,"discrete_scale(aesthetics, ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleDiscreteIdentity)"
+ggplot2,discrete_scale,142,ggplot2,scale_color_viridis_d,R/scale-viridis.r,53,61,"discrete_scale(aesthetics, ""viridis_d"", viridis_pal(alpha, begin, 
+    end, direction, option), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_discrete,R/scale-hue.r,53,57,"discrete_scale(aesthetics, ""hue"", hue_pal(h, c, l, h.start, direction), 
+    na.value = na.value, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_color_grey,R/scale-grey.r,28,31,"discrete_scale(aesthetics, ""grey"", grey_pal(start, end), na.value = na.value, 
+    ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_y_discrete,R/scale-discrete-.r,62,68,"discrete_scale(c(""y"", ""ymin"", ""ymax"", ""yend""), ""position_d"", 
+    identity, ..., expand = expand, guide = ""none"", position = position, 
+    super = ScaleDiscretePosition)"
+ggplot2,discrete_scale,142,ggplot2,scale_colour_ordinal,R/scale-viridis.r,53,61,"discrete_scale(aesthetics, ""viridis_d"", viridis_pal(alpha, begin, 
+    end, direction, option), ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_linetype_discrete,R/scale-linetype.r,31,34,"discrete_scale(""linetype"", ""linetype_d"", linetype_pal(), na.value = na.value, 
+    ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_fill_identity,R/scale-identity.r,73,78,"discrete_scale(aesthetics, ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleDiscreteIdentity)"
+ggplot2,discrete_scale,142,ggplot2,scale_size_ordinal,R/scale-size.r,70,82,"discrete_scale(""size"", ""size_d"", function(n) {
+    area <- seq(range[1]^2, range[2]^2, length.out = n)
+    sqrt(area)
+}, ...)"
+ggplot2,discrete_scale,142,ggplot2,scale_color_identity,R/scale-identity.r,64,69,"discrete_scale(aesthetics, ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleDiscreteIdentity)"
+ggplot2,discrete_scale,142,ggplot2,scale_x_discrete,R/scale-discrete-.r,53,59,"discrete_scale(c(""x"", ""xmin"", ""xmax"", ""xend""), ""position_d"", 
+    identity, ..., expand = expand, guide = ""none"", position = position, 
+    super = ScaleDiscretePosition)"
+ggplot2,discrete_scale,142,ggplot2,scale_linetype,R/scale-linetype.r,31,34,"discrete_scale(""linetype"", ""linetype_d"", linetype_pal(), na.value = na.value, 
+    ...)"
+ggplot2,is.ggproto,153,ggplot2,ggproto,R/ggproto.r,57,91,is.ggproto(super)
+ggplot2,is.ggproto,153,ggplot2,%+%,R/plot-construction.r,40,58,is.ggproto(e1)
+ggplot2,is.ggproto,153,ggplot2,+.gg,R/plot-construction.r,40,58,is.ggproto(e1)
+ggplot2,is.ggproto,153,ggplot2,object_summaries,R/ggproto.r,284,306,is.ggproto(obj)
+ggplot2,element_blank,162,ggplot2,theme_classic,R/theme-defaults.r,419,446,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_classic,R/theme-defaults.r,419,446,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_classic,R/theme-defaults.r,419,446,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_classic,R/theme-defaults.r,419,446,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_void,R/theme-defaults.r,450,507,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_void,R/theme-defaults.r,450,507,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_void,R/theme-defaults.r,450,507,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_void,R/theme-defaults.r,450,507,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_minimal,R/theme-defaults.r,394,415,element_blank()
+ggplot2,element_blank,162,ggplot2,guides_build,R/guides-.r,238,298,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_test,R/theme-defaults.r,512,636,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_test,R/theme-defaults.r,512,636,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_test,R/theme-defaults.r,512,636,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_test,R/theme-defaults.r,512,636,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_blank()
+ggplot2,element_blank,162,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_blank()
+ggplot2,scale_type,165,ggplot2,find_scale,R/scale-type.R,1,23,scale_type(x)
+ggplot2,continuous_scale,172,ggplot2,scale_alpha_identity,R/scale-identity.r,100,105,"continuous_scale(""alpha"", ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleContinuousIdentity)"
+ggplot2,continuous_scale,172,ggplot2,scale_colour_viridis_c,R/scale-viridis.r,77,93,"continuous_scale(aesthetics, ""viridis_c"", gradient_n_pal(viridis_pal(alpha, 
+    begin, end, direction, option)(6), values, space), na.value = na.value, 
+    guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_color_gradient,R/scale-gradient.r,57,61,"continuous_scale(aesthetics, ""gradient"", seq_gradient_pal(low, 
+    high, space), na.value = na.value, guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_color_gradient2,R/scale-gradient.r,76,82,"continuous_scale(aesthetics, ""gradient2"", div_gradient_pal(low, 
+    mid, high, space), na.value = na.value, guide = guide, ..., 
+    rescaler = mid_rescaler(mid = midpoint))"
+ggplot2,continuous_scale,172,ggplot2,scale_fill_viridis_c,R/scale-viridis.r,97,113,"continuous_scale(aesthetics, ""viridis_c"", gradient_n_pal(viridis_pal(alpha, 
+    begin, end, direction, option)(6), values, space), na.value = na.value, 
+    guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_size_continuous,R/scale-size.r,37,43,"continuous_scale(""size"", ""area"", area_pal(range), name = name, 
+    breaks = breaks, labels = labels, limits = limits, trans = trans, 
+    guide = guide)"
+ggplot2,continuous_scale,172,ggplot2,scale_colour_distiller,R/scale-brewer.r,80,90,"continuous_scale(aesthetics, ""distiller"", gradient_n_pal(brewer_pal(type, 
+    palette, direction)(7), values, space), na.value = na.value, 
+    guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_colour_gradient2,R/scale-gradient.r,76,82,"continuous_scale(aesthetics, ""gradient2"", div_gradient_pal(low, 
+    mid, high, space), na.value = na.value, guide = guide, ..., 
+    rescaler = mid_rescaler(mid = midpoint))"
+ggplot2,continuous_scale,172,ggplot2,scale_y_continuous,R/scale-continuous.r,96,110,"continuous_scale(c(""y"", ""ymin"", ""ymax"", ""yend"", ""yintercept"", 
+    ""ymin_final"", ""ymax_final"", ""lower"", ""middle"", ""upper"", ""y0""), 
+    ""position_c"", identity, name = name, breaks = breaks, minor_breaks = minor_breaks, 
+    labels = labels, limits = limits, expand = expand, oob = oob, 
+    na.value = na.value, trans = trans, guide = ""none"", position = position, 
+    super = ScaleContinuousPosition)"
+ggplot2,continuous_scale,172,ggplot2,scale_colour_gradient,R/scale-gradient.r,57,61,"continuous_scale(aesthetics, ""gradient"", seq_gradient_pal(low, 
+    high, space), na.value = na.value, guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_fill_gradientn,R/scale-gradient.r,113,119,"continuous_scale(aesthetics, ""gradientn"", gradient_n_pal(colours, 
+    values, space), na.value = na.value, guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_continuous_identity,R/scale-identity.r,127,132,"continuous_scale(aesthetics, ""identity"", identity_pal(), ..., 
+    guide = guide, super = ScaleContinuousIdentity)"
+ggplot2,continuous_scale,172,ggplot2,scale_fill_distiller,R/scale-brewer.r,94,101,"continuous_scale(aesthetics, ""distiller"", gradient_n_pal(brewer_pal(type, 
+    palette, direction)(7), values, space), na.value = na.value, 
+    guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_x_continuous,R/scale-continuous.r,77,92,"continuous_scale(c(""x"", ""xmin"", ""xmax"", ""xend"", ""xintercept"", 
+    ""xmin_final"", ""xmax_final"", ""xlower"", ""xmiddle"", ""xupper"", 
+    ""x0""), ""position_c"", identity, name = name, breaks = breaks, 
+    minor_breaks = minor_breaks, labels = labels, limits = limits, 
+    expand = expand, oob = oob, na.value = na.value, trans = trans, 
+    guide = ""none"", position = position, super = ScaleContinuousPosition)"
+ggplot2,continuous_scale,172,ggplot2,scale_fill_gradient2,R/scale-gradient.r,86,92,"continuous_scale(aesthetics, ""gradient2"", div_gradient_pal(low, 
+    mid, high, space), na.value = na.value, guide = guide, ..., 
+    rescaler = mid_rescaler(mid = midpoint))"
+ggplot2,continuous_scale,172,ggplot2,scale_colour_gradientn,R/scale-gradient.r,104,110,"continuous_scale(aesthetics, ""gradientn"", gradient_n_pal(colours, 
+    values, space), na.value = na.value, guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_color_gradientn,R/scale-gradient.r,104,110,"continuous_scale(aesthetics, ""gradientn"", gradient_n_pal(colours, 
+    values, space), na.value = na.value, guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_alpha_continuous,R/scale-alpha.r,21,23,"continuous_scale(""alpha"", ""alpha_c"", rescale_pal(range), ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_size_area,R/scale-size.r,88,92,"continuous_scale(""size"", ""area"", palette = abs_area(max_size), 
+    rescaler = rescale_max, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_color_distiller,R/scale-brewer.r,80,90,"continuous_scale(aesthetics, ""distiller"", gradient_n_pal(brewer_pal(type, 
+    palette, direction)(7), values, space), na.value = na.value, 
+    guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_alpha,R/scale-alpha.r,21,23,"continuous_scale(""alpha"", ""alpha_c"", rescale_pal(range), ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_color_viridis_c,R/scale-viridis.r,77,93,"continuous_scale(aesthetics, ""viridis_c"", gradient_n_pal(viridis_pal(alpha, 
+    begin, end, direction, option)(6), values, space), na.value = na.value, 
+    guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_size_identity,R/scale-identity.r,109,114,"continuous_scale(""size"", ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleContinuousIdentity)"
+ggplot2,continuous_scale,172,ggplot2,scale_fill_gradient,R/scale-gradient.r,65,69,"continuous_scale(aesthetics, ""gradient"", seq_gradient_pal(low, 
+    high, space), na.value = na.value, guide = guide, ...)"
+ggplot2,continuous_scale,172,ggplot2,scale_radius,R/scale-size.r,47,53,"continuous_scale(""size"", ""radius"", rescale_pal(range), name = name, 
+    breaks = breaks, labels = labels, limits = limits, trans = trans, 
+    guide = guide)"
+ggplot2,continuous_scale,172,ggplot2,scale_size,R/scale-size.r,37,43,"continuous_scale(""size"", ""area"", area_pal(range), name = name, 
+    breaks = breaks, labels = labels, limits = limits, trans = trans, 
+    guide = guide)"
+ggplot2,continuous_scale,172,ggplot2,datetime_scale,R/scale-date.r,259,315,"continuous_scale(aesthetics, name, palette = palette, breaks = breaks, 
+    minor_breaks = minor_breaks, labels = labels, guide = guide, 
+    trans = trans, ..., super = scale_class)"
+ggplot2,continuous_scale,172,ggplot2,scale_shape_identity,R/scale-identity.r,82,87,"continuous_scale(""shape"", ""identity"", identity_pal(), ..., guide = guide, 
+    super = ScaleContinuousIdentity)"
+ggplot2,element_grob,174,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,"element_grob(title.theme, label = guide$title, hjust = title.hjust, 
+    vjust = title.vjust, margin_x = TRUE, margin_y = TRUE)"
+ggplot2,element_grob,174,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,"element_grob(element = label.theme, label = label, hjust = hjust, 
+    vjust = vjust, margin_x = TRUE, margin_y = TRUE)"
+ggplot2,element_grob,174,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,"element_grob(title.theme, label = guide$title, hjust = title.hjust, 
+    vjust = title.vjust, margin_x = TRUE, margin_y = TRUE)"
+ggplot2,element_grob,174,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,"element_grob(element = label.theme, label = label, x = x, y = y, 
+    hjust = hjust, vjust = vjust, margin_x = margin_x, margin_y = margin_y)"
+ggplot2,element_grob,174,ggplot2,element_render,R/theme-elements.r,144,155,"element_grob(el, ...)"
+ggplot2,element_grob,174,ggplot2,guides_build,R/guides-.r,238,298,element_grob(theme$legend.box.background %||% element_blank())
+ggplot2,scale_fill_viridis_c,191,ggplot2,scale_fill_continuous,R/scale-colour.r,38,46,scale_fill_viridis_c(...)
+ggplot2,sec_axis,206,ggplot2,dup_axis,R/axis-secondary.R,97,99,"sec_axis(trans, name, breaks, labels)"
+ggplot2,sec_axis,206,ggplot2,set_sec_axis,R/axis-secondary.R,105,112,sec_axis(sec.axis)
+ggplot2,ggproto,222,ggplot2,facet_wrap,R/facet-wrap.r,83,128,"ggproto(NULL, FacetWrap, shrink = shrink, params = list(facets = facets, 
+    free = free, as.table = as.table, strip.position = strip.position, 
+    drop = drop, ncol = ncol, nrow = nrow, labeller = labeller, 
+    dir = dir))"
+ggplot2,ggproto,222,ggplot2,scales_list,R/scales-.r,5,7,"ggproto(NULL, ScalesList)"
+ggplot2,ggproto,222,ggplot2,coord_fixed,R/coord-fixed.r,25,32,"ggproto(NULL, CoordFixed, limits = list(x = xlim, y = ylim), 
+    ratio = ratio, expand = expand, clip = clip)"
+ggplot2,ggproto,222,ggplot2,position_dodge2,R/position-dodge2.r,7,15,"ggproto(NULL, PositionDodge2, width = width, preserve = match.arg(preserve), 
+    padding = padding, reverse = reverse)"
+ggplot2,ggproto,222,ggplot2,discrete_scale,R/scale-.r,634,670,"ggproto(NULL, super, call = match.call(), aesthetics = aesthetics, 
+    scale_name = scale_name, palette = palette, range = discrete_range(), 
+    limits = limits, na.value = na.value, na.translate = na.translate, 
+    expand = expand, name = name, breaks = breaks, labels = labels, 
+    drop = drop, guide = guide, position = position)"
+ggplot2,ggproto,222,ggplot2,continuous_scale,R/scale-.r,562,606,"ggproto(NULL, super, call = match.call(), aesthetics = aesthetics, 
+    scale_name = scale_name, palette = palette, range = continuous_range(), 
+    limits = limits, trans = trans, na.value = na.value, expand = expand, 
+    rescaler = rescaler, oob = oob, name = name, breaks = breaks, 
+    minor_breaks = minor_breaks, labels = labels, guide = guide, 
+    position = position)"
+ggplot2,ggproto,222,ggplot2,position_stack,R/position-stack.r,128,130,"ggproto(NULL, PositionStack, vjust = vjust, reverse = reverse)"
+ggplot2,ggproto,222,ggplot2,continuous_range,R/range.r,27,29,"ggproto(NULL, RangeContinuous)"
+ggplot2,ggproto,222,ggplot2,sec_axis,R/axis-secondary.R,82,93,"ggproto(NULL, AxisSecondary, trans = trans, name = name, breaks = breaks, 
+    labels = labels)"
+ggplot2,ggproto,222,ggplot2,coord_polar,R/coord-polar.r,60,71,"ggproto(NULL, CoordPolar, theta = theta, r = r, start = start, 
+    direction = sign(direction), clip = clip)"
+ggplot2,ggproto,222,ggplot2,set_draw_key,R/layer.r,428,438,"ggproto("""", geom, draw_key = draw_key)"
+ggplot2,ggproto,222,ggplot2,facet_null,R/facet-null.r,13,17,"ggproto(NULL, FacetNull, shrink = shrink)"
+ggplot2,ggproto,222,ggplot2,coord_cartesian,R/coord-cartesian-.r,62,70,"ggproto(NULL, CoordCartesian, limits = list(x = xlim, y = ylim), 
+    expand = expand, default = default, clip = clip)"
+ggplot2,ggproto,222,ggplot2,layer,R/layer.r,65,160,"ggproto(""LayerInstance"", layer_class, geom = geom, geom_params = geom_params, 
+    stat = stat, stat_params = stat_params, data = data, mapping = mapping, 
+    aes_params = aes_params, position = position, inherit.aes = inherit.aes, 
+    show.legend = show.legend)"
+ggplot2,ggproto,222,ggplot2,coord_quickmap,R/coord-quickmap.R,4,10,"ggproto(NULL, CoordQuickmap, limits = list(x = xlim, y = ylim), 
+    expand = expand, clip = clip)"
+ggplot2,ggproto,222,ggplot2,position_nudge,R/position-nudge.R,29,34,"ggproto(NULL, PositionNudge, x = x, y = y)"
+ggplot2,ggproto,222,ggplot2,position_fill,R/position-stack.r,134,136,"ggproto(NULL, PositionFill, vjust = vjust, reverse = reverse)"
+ggplot2,ggproto,222,ggplot2,coord_map,R/coord-map.r,139,153,"ggproto(NULL, CoordMap, projection = projection, orientation = orientation, 
+    limits = list(x = xlim, y = ylim), params = params, clip = clip)"
+ggplot2,ggproto,222,ggplot2,coord_sf,R/coord-sf.R,415,463,"ggproto(NULL, CoordSf, limits = list(x = xlim, y = ylim), datum = datum, 
+    crs = crs, label_axes = label_axes, label_graticule = label_graticule, 
+    ndiscr = ndiscr, expand = expand, default = default, clip = clip)"
+ggplot2,ggproto,222,ggplot2,discrete_range,R/range.r,31,33,"ggproto(NULL, RangeDiscrete)"
+ggplot2,ggproto,222,ggplot2,coord_flip,R/coord-flip.r,28,34,"ggproto(NULL, CoordFlip, limits = list(x = xlim, y = ylim), expand = expand, 
+    clip = clip)"
+ggplot2,ggproto,222,ggplot2,create_layout,R/layout.R,9,11,"ggproto(NULL, Layout, facet = facet, coord = coord)"
+ggplot2,ggproto,222,ggplot2,position_jitter,R/position-jitter.r,48,58,"ggproto(NULL, PositionJitter, width = width, height = height, 
+    seed = seed)"
+ggplot2,ggproto,222,ggplot2,position_dodge,R/position-dodge.r,76,81,"ggproto(NULL, PositionDodge, width = width, preserve = match.arg(preserve))"
+ggplot2,ggproto,222,ggplot2,facet_grid,R/facet-grid-.r,116,158,"ggproto(NULL, FacetGrid, shrink = shrink, params = list(rows = facets_list$rows, 
+    cols = facets_list$cols, margins = margins, free = free, 
+    space_free = space_free, labeller = labeller, as.table = as.table, 
+    switch = switch, drop = drop))"
+ggplot2,ggproto,222,ggplot2,position_jitterdodge,R/position-jitterdodge.R,20,32,"ggproto(NULL, PositionJitterdodge, jitter.width = jitter.width, 
+    jitter.height = jitter.height, dodge.width = dodge.width, 
+    seed = seed)"
+ggplot2,ggproto,222,ggplot2,coord_equal,R/coord-fixed.r,25,32,"ggproto(NULL, CoordFixed, limits = list(x = xlim, y = ylim), 
+    ratio = ratio, expand = expand, clip = clip)"
+ggplot2,ggproto,222,ggplot2,coord_trans,R/coord-transform.r,81,108,"ggproto(NULL, CoordTrans, trans = list(x = x, y = y), limits = list(x = limx, 
+    y = limy), clip = clip)"
+ggplot2,labs,223,ggplot2,ggtitle,R/labels.r,94,96,"labs(title = label, subtitle = subtitle)"
+ggplot2,labs,223,ggplot2,ylab,R/labels.r,88,90,labs(y = label)
+ggplot2,labs,223,ggplot2,xlab,R/labels.r,82,84,labs(x = label)
+ggplot2,set_last_plot,235,ggplot2,add_ggplot,R/plot-construction.r,65,72,set_last_plot(p)
+ggplot2,set_last_plot,235,ggplot2,plot.ggplot,R/plot.r,156,180,set_last_plot(x)
+ggplot2,set_last_plot,235,ggplot2,print.ggplot,R/plot.r,156,180,set_last_plot(x)
+ggplot2,set_last_plot,235,ggplot2,ggplot.default,R/plot.r,80,103,set_last_plot(p)
+ggplot2,facet_null,243,ggplot2,qplot,R/quick-plot.r,62,161,facet_null()
+ggplot2,facet_null,243,ggplot2,ggplot.default,R/plot.r,80,103,facet_null()
+ggplot2,facet_null,243,ggplot2,quickplot,R/quick-plot.r,62,161,facet_null()
+ggplot2,panel_rows,267,ggplot2,weave_tables_row,R/facet-wrap.r,488,499,panel_rows(table)
+ggplot2,panel_rows,267,ggplot2,weave_tables_col,R/facet-wrap.r,476,487,panel_rows(table)
+ggplot2,scale_y_continuous,275,ggplot2,scale_y_reverse,R/scale-continuous.r,169,171,"scale_y_continuous(..., trans = reverse_trans())"
+ggplot2,scale_y_continuous,275,ggplot2,scale_y_time,R/scale-date.r,232,256,"scale_y_continuous(name = name, breaks = breaks, labels = labels, 
+    minor_breaks = minor_breaks, limits = limits, expand = expand, 
+    oob = oob, na.value = na.value, position = position, trans = scales::hms_trans(), 
+    sec.axis = sec.axis)"
+ggplot2,scale_y_continuous,275,ggplot2,scale_y_sqrt,R/scale-continuous.r,179,181,"scale_y_continuous(..., trans = sqrt_trans())"
+ggplot2,scale_y_continuous,275,ggplot2,scale_y_log10,R/scale-continuous.r,159,161,"scale_y_continuous(..., trans = log10_trans())"
+ggplot2,theme,284,ggplot2,theme_light,R/theme-defaults.r,310,349,"theme(panel.background = element_rect(fill = ""white"", colour = NA), 
+    panel.border = element_rect(fill = NA, colour = ""grey70"", 
+        size = rel(1)), panel.grid = element_line(colour = ""grey87""), 
+    panel.grid.major = element_line(size = rel(0.5)), panel.grid.minor = element_line(size = rel(0.25)), 
+    axis.ticks = element_line(colour = ""grey70"", size = rel(0.5)), 
+    legend.key = element_rect(fill = ""white"", colour = NA), strip.background = element_rect(fill = ""grey70"", 
+        colour = NA), strip.text = element_text(colour = ""white"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"theme(axis.text = element_text(colour = ""black"", size = rel(0.8)), 
+    axis.ticks = element_line(colour = ""black"", size = rel(0.5)), 
+    panel.border = element_rect(fill = NA, colour = ""black"", 
+        size = rel(1)), panel.grid = element_line(colour = ""black""), 
+    panel.grid.major = element_line(size = rel(0.1)), panel.grid.minor = element_line(size = rel(0.05)), 
+    strip.background = element_rect(fill = ""black""), strip.text = element_text(colour = ""white"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_update,R/theme-current.R,88,90,theme(...)
+ggplot2,theme,284,ggplot2,theme_classic,R/theme-defaults.r,419,446,"theme(panel.border = element_blank(), panel.grid.major = element_blank(), 
+    panel.grid.minor = element_blank(), axis.line = element_line(colour = ""black"", 
+        size = rel(1)), legend.key = element_blank(), strip.background = element_rect(fill = ""white"", 
+        colour = ""black"", size = rel(2)), complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_void,R/theme-defaults.r,450,507,"theme(line = element_blank(), rect = element_blank(), text = element_text(family = base_family, 
+    face = ""plain"", colour = ""black"", size = base_size, lineheight = 0.9, 
+    hjust = 0.5, vjust = 0.5, angle = 0, margin = margin(), debug = FALSE), 
+    axis.text = element_blank(), axis.title = element_blank(), 
+    axis.ticks.length = unit(0, ""pt""), axis.ticks.length.x = NULL, 
+    axis.ticks.length.x.top = NULL, axis.ticks.length.x.bottom = NULL, 
+    axis.ticks.length.y = NULL, axis.ticks.length.y.left = NULL, 
+    axis.ticks.length.y.right = NULL, legend.box = NULL, legend.key.size = unit(1.2, 
+        ""lines""), legend.position = ""right"", legend.text = element_text(size = rel(0.8)), 
+    legend.title = element_text(hjust = 0), strip.text = element_text(size = rel(0.8)), 
+    strip.switch.pad.grid = unit(half_line/2, ""pt""), strip.switch.pad.wrap = unit(half_line/2, 
+        ""pt""), panel.ontop = FALSE, panel.spacing = unit(half_line, 
+        ""pt""), plot.margin = unit(c(0, 0, 0, 0), ""lines""), plot.title = element_text(size = rel(1.2), 
+        hjust = 0, vjust = 1, margin = margin(t = half_line)), 
+    plot.subtitle = element_text(hjust = 0, vjust = 1, margin = margin(t = half_line)), 
+    plot.caption = element_text(size = rel(0.8), hjust = 1, vjust = 1, 
+        margin = margin(t = half_line)), plot.tag = element_text(size = rel(1.2), 
+        hjust = 0.5, vjust = 0.5), plot.tag.position = ""topleft"", 
+    complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_bw,R/theme-defaults.r,242,266,"theme(panel.background = element_rect(fill = ""white"", colour = NA), 
+    panel.border = element_rect(fill = NA, colour = ""grey20""), 
+    panel.grid = element_line(colour = ""grey92""), panel.grid.minor = element_line(size = rel(0.5)), 
+    strip.background = element_rect(fill = ""grey85"", colour = ""grey20""), 
+    legend.key = element_rect(fill = ""white"", colour = NA), complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_minimal,R/theme-defaults.r,394,415,"theme(axis.ticks = element_blank(), legend.background = element_blank(), 
+    legend.key = element_blank(), panel.background = element_blank(), 
+    panel.border = element_blank(), strip.background = element_blank(), 
+    plot.background = element_blank(), complete = TRUE)"
+ggplot2,theme,284,ggplot2,qplot,R/quick-plot.r,62,161,theme(aspect.ratio = asp)
+ggplot2,theme,284,ggplot2,theme_dark,R/theme-defaults.r,353,390,"theme(panel.background = element_rect(fill = ""grey50"", colour = NA), 
+    panel.grid = element_line(colour = ""grey42""), panel.grid.major = element_line(size = rel(0.5)), 
+    panel.grid.minor = element_line(size = rel(0.25)), axis.ticks = element_line(colour = ""grey20"", 
+        size = rel(0.5)), legend.key = element_rect(fill = ""grey50"", 
+        colour = NA), strip.background = element_rect(fill = ""grey15"", 
+        colour = NA), strip.text = element_text(colour = ""grey90"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_test,R/theme-defaults.r,512,636,"theme(line = element_line(colour = ""black"", size = base_line_size, 
+    linetype = 1, lineend = ""butt""), rect = element_rect(fill = ""white"", 
+    colour = ""black"", size = base_rect_size, linetype = 1), text = element_text(family = base_family, 
+    face = ""plain"", colour = ""black"", size = base_size, lineheight = 0.9, 
+    hjust = 0.5, vjust = 0.5, angle = 0, margin = margin(), debug = FALSE), 
+    axis.line = element_blank(), axis.line.x = NULL, axis.line.y = NULL, 
+    axis.text = element_text(size = rel(0.8), colour = ""grey30""), 
+    axis.text.x = element_text(margin = margin(t = 0.8 * half_line/2), 
+        vjust = 1), axis.text.x.top = element_text(margin = margin(b = 0.8 * 
+        half_line/2), vjust = 0), axis.text.y = element_text(margin = margin(r = 0.8 * 
+        half_line/2), hjust = 1), axis.text.y.right = element_text(margin = margin(l = 0.8 * 
+        half_line/2), hjust = 0), axis.ticks = element_line(colour = ""grey20""), 
+    axis.ticks.length = unit(half_line/2, ""pt""), axis.ticks.length.x = NULL, 
+    axis.ticks.length.x.top = NULL, axis.ticks.length.x.bottom = NULL, 
+    axis.ticks.length.y = NULL, axis.ticks.length.y.left = NULL, 
+    axis.ticks.length.y.right = NULL, axis.title.x = element_text(margin = margin(t = half_line/2), 
+        vjust = 1), axis.title.x.top = element_text(margin = margin(b = half_line/2), 
+        vjust = 0), axis.title.y = element_text(angle = 90, margin = margin(r = half_line/2), 
+        vjust = 1), axis.title.y.right = element_text(angle = -90, 
+        margin = margin(l = half_line/2), vjust = 0), legend.background = element_rect(colour = NA), 
+    legend.spacing = unit(2 * half_line, ""pt""), legend.spacing.x = NULL, 
+    legend.spacing.y = NULL, legend.margin = margin(0, 0, 0, 
+        0, ""cm""), legend.key = element_rect(fill = ""white"", colour = NA), 
+    legend.key.size = unit(1.2, ""lines""), legend.key.height = NULL, 
+    legend.key.width = NULL, legend.text = element_text(size = rel(0.8)), 
+    legend.text.align = NULL, legend.title = element_text(hjust = 0), 
+    legend.title.align = NULL, legend.position = ""right"", legend.direction = NULL, 
+    legend.justification = ""center"", legend.box = NULL, legend.box.margin = margin(0, 
+        0, 0, 0, ""cm""), legend.box.background = element_blank(), 
+    legend.box.spacing = unit(2 * half_line, ""pt""), panel.background = element_rect(fill = ""white"", 
+        colour = NA), panel.border = element_rect(fill = NA, 
+        colour = ""grey20""), panel.grid.major = element_blank(), 
+    panel.grid.minor = element_blank(), panel.spacing = unit(half_line, 
+        ""pt""), panel.spacing.x = NULL, panel.spacing.y = NULL, 
+    panel.ontop = FALSE, strip.background = element_rect(fill = ""grey85"", 
+        colour = ""grey20""), strip.text = element_text(colour = ""grey10"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), strip.text.x = NULL, 
+    strip.text.y = element_text(angle = -90), strip.placement = ""inside"", 
+    strip.placement.x = NULL, strip.placement.y = NULL, strip.switch.pad.grid = unit(half_line/2, 
+        ""pt""), strip.switch.pad.wrap = unit(half_line/2, ""pt""), 
+    plot.background = element_rect(colour = ""white""), plot.title = element_text(size = rel(1.2), 
+        hjust = 0, vjust = 1, margin = margin(b = half_line)), 
+    plot.subtitle = element_text(hjust = 0, vjust = 1, margin = margin(b = half_line)), 
+    plot.caption = element_text(size = rel(0.8), hjust = 1, vjust = 1, 
+        margin = margin(t = half_line)), plot.tag = element_text(size = rel(1.2), 
+        hjust = 0.5, vjust = 0.5), plot.tag.position = ""topleft"", 
+    plot.margin = margin(half_line, half_line, half_line, half_line), 
+    complete = TRUE)"
+ggplot2,theme,284,ggplot2,theme_grey,R/theme-defaults.r,98,235,"theme(line = element_line(colour = ""black"", size = base_line_size, 
+    linetype = 1, lineend = ""butt""), rect = element_rect(fill = ""white"", 
+    colour = ""black"", size = base_rect_size, linetype = 1), text = element_text(family = base_family, 
+    face = ""plain"", colour = ""black"", size = base_size, lineheight = 0.9, 
+    hjust = 0.5, vjust = 0.5, angle = 0, margin = margin(), debug = FALSE), 
+    axis.line = element_blank(), axis.line.x = NULL, axis.line.y = NULL, 
+    axis.text = element_text(size = rel(0.8), colour = ""grey30""), 
+    axis.text.x = element_text(margin = margin(t = 0.8 * half_line/2), 
+        vjust = 1), axis.text.x.top = element_text(margin = margin(b = 0.8 * 
+        half_line/2), vjust = 0), axis.text.y = element_text(margin = margin(r = 0.8 * 
+        half_line/2), hjust = 1), axis.text.y.right = element_text(margin = margin(l = 0.8 * 
+        half_line/2), hjust = 0), axis.ticks = element_line(colour = ""grey20""), 
+    axis.ticks.length = unit(half_line/2, ""pt""), axis.ticks.length.x = NULL, 
+    axis.ticks.length.x.top = NULL, axis.ticks.length.x.bottom = NULL, 
+    axis.ticks.length.y = NULL, axis.ticks.length.y.left = NULL, 
+    axis.ticks.length.y.right = NULL, axis.title.x = element_text(margin = margin(t = half_line/2), 
+        vjust = 1), axis.title.x.top = element_text(margin = margin(b = half_line/2), 
+        vjust = 0), axis.title.y = element_text(angle = 90, margin = margin(r = half_line/2), 
+        vjust = 1), axis.title.y.right = element_text(angle = -90, 
+        margin = margin(l = half_line/2), vjust = 0), legend.background = element_rect(colour = NA), 
+    legend.spacing = unit(2 * half_line, ""pt""), legend.spacing.x = NULL, 
+    legend.spacing.y = NULL, legend.margin = margin(half_line, 
+        half_line, half_line, half_line), legend.key = element_rect(fill = ""grey95"", 
+        colour = ""white""), legend.key.size = unit(1.2, ""lines""), 
+    legend.key.height = NULL, legend.key.width = NULL, legend.text = element_text(size = rel(0.8)), 
+    legend.text.align = NULL, legend.title = element_text(hjust = 0), 
+    legend.title.align = NULL, legend.position = ""right"", legend.direction = NULL, 
+    legend.justification = ""center"", legend.box = NULL, legend.box.margin = margin(0, 
+        0, 0, 0, ""cm""), legend.box.background = element_blank(), 
+    legend.box.spacing = unit(2 * half_line, ""pt""), panel.background = element_rect(fill = ""grey92"", 
+        colour = NA), panel.border = element_blank(), panel.grid = element_line(colour = ""white""), 
+    panel.grid.minor = element_line(size = rel(0.5)), panel.spacing = unit(half_line, 
+        ""pt""), panel.spacing.x = NULL, panel.spacing.y = NULL, 
+    panel.ontop = FALSE, strip.background = element_rect(fill = ""grey85"", 
+        colour = NA), strip.text = element_text(colour = ""grey10"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), strip.text.x = NULL, 
+    strip.text.y = element_text(angle = -90), strip.placement = ""inside"", 
+    strip.placement.x = NULL, strip.placement.y = NULL, strip.switch.pad.grid = unit(half_line/2, 
+        ""pt""), strip.switch.pad.wrap = unit(half_line/2, ""pt""), 
+    plot.background = element_rect(colour = ""white""), plot.title = element_text(size = rel(1.2), 
+        hjust = 0, vjust = 1, margin = margin(b = half_line)), 
+    plot.subtitle = element_text(hjust = 0, vjust = 1, margin = margin(b = half_line)), 
+    plot.caption = element_text(size = rel(0.8), hjust = 1, vjust = 1, 
+        margin = margin(t = half_line)), plot.tag = element_text(size = rel(1.2), 
+        hjust = 0.5, vjust = 0.5), plot.tag.position = ""topleft"", 
+    plot.margin = margin(half_line, half_line, half_line, half_line), 
+    complete = TRUE)"
+ggplot2,theme,284,ggplot2,quickplot,R/quick-plot.r,62,161,theme(aspect.ratio = asp)
+ggplot2,theme,284,ggplot2,theme_replace,R/theme-current.R,94,96,theme(...)
+ggplot2,theme,284,ggplot2,theme_gray,R/theme-defaults.r,98,235,"theme(line = element_line(colour = ""black"", size = base_line_size, 
+    linetype = 1, lineend = ""butt""), rect = element_rect(fill = ""white"", 
+    colour = ""black"", size = base_rect_size, linetype = 1), text = element_text(family = base_family, 
+    face = ""plain"", colour = ""black"", size = base_size, lineheight = 0.9, 
+    hjust = 0.5, vjust = 0.5, angle = 0, margin = margin(), debug = FALSE), 
+    axis.line = element_blank(), axis.line.x = NULL, axis.line.y = NULL, 
+    axis.text = element_text(size = rel(0.8), colour = ""grey30""), 
+    axis.text.x = element_text(margin = margin(t = 0.8 * half_line/2), 
+        vjust = 1), axis.text.x.top = element_text(margin = margin(b = 0.8 * 
+        half_line/2), vjust = 0), axis.text.y = element_text(margin = margin(r = 0.8 * 
+        half_line/2), hjust = 1), axis.text.y.right = element_text(margin = margin(l = 0.8 * 
+        half_line/2), hjust = 0), axis.ticks = element_line(colour = ""grey20""), 
+    axis.ticks.length = unit(half_line/2, ""pt""), axis.ticks.length.x = NULL, 
+    axis.ticks.length.x.top = NULL, axis.ticks.length.x.bottom = NULL, 
+    axis.ticks.length.y = NULL, axis.ticks.length.y.left = NULL, 
+    axis.ticks.length.y.right = NULL, axis.title.x = element_text(margin = margin(t = half_line/2), 
+        vjust = 1), axis.title.x.top = element_text(margin = margin(b = half_line/2), 
+        vjust = 0), axis.title.y = element_text(angle = 90, margin = margin(r = half_line/2), 
+        vjust = 1), axis.title.y.right = element_text(angle = -90, 
+        margin = margin(l = half_line/2), vjust = 0), legend.background = element_rect(colour = NA), 
+    legend.spacing = unit(2 * half_line, ""pt""), legend.spacing.x = NULL, 
+    legend.spacing.y = NULL, legend.margin = margin(half_line, 
+        half_line, half_line, half_line), legend.key = element_rect(fill = ""grey95"", 
+        colour = ""white""), legend.key.size = unit(1.2, ""lines""), 
+    legend.key.height = NULL, legend.key.width = NULL, legend.text = element_text(size = rel(0.8)), 
+    legend.text.align = NULL, legend.title = element_text(hjust = 0), 
+    legend.title.align = NULL, legend.position = ""right"", legend.direction = NULL, 
+    legend.justification = ""center"", legend.box = NULL, legend.box.margin = margin(0, 
+        0, 0, 0, ""cm""), legend.box.background = element_blank(), 
+    legend.box.spacing = unit(2 * half_line, ""pt""), panel.background = element_rect(fill = ""grey92"", 
+        colour = NA), panel.border = element_blank(), panel.grid = element_line(colour = ""white""), 
+    panel.grid.minor = element_line(size = rel(0.5)), panel.spacing = unit(half_line, 
+        ""pt""), panel.spacing.x = NULL, panel.spacing.y = NULL, 
+    panel.ontop = FALSE, strip.background = element_rect(fill = ""grey85"", 
+        colour = NA), strip.text = element_text(colour = ""grey10"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), strip.text.x = NULL, 
+    strip.text.y = element_text(angle = -90), strip.placement = ""inside"", 
+    strip.placement.x = NULL, strip.placement.y = NULL, strip.switch.pad.grid = unit(half_line/2, 
+        ""pt""), strip.switch.pad.wrap = unit(half_line/2, ""pt""), 
+    plot.background = element_rect(colour = ""white""), plot.title = element_text(size = rel(1.2), 
+        hjust = 0, vjust = 1, margin = margin(b = half_line)), 
+    plot.subtitle = element_text(hjust = 0, vjust = 1, margin = margin(b = half_line)), 
+    plot.caption = element_text(size = rel(0.8), hjust = 1, vjust = 1, 
+        margin = margin(t = half_line)), plot.tag = element_text(size = rel(1.2), 
+        hjust = 0.5, vjust = 0.5), plot.tag.position = ""topleft"", 
+    plot.margin = margin(half_line, half_line, half_line, half_line), 
+    complete = TRUE)"
+ggplot2,layer_sf,285,ggplot2,stat_sf_coordinates,R/stat-sf-coordinates.R,60,79,"layer_sf(stat = StatSfCoordinates, data = data, mapping = mapping, 
+    geom = geom, position = position, show.legend = show.legend, 
+    inherit.aes = inherit.aes, params = list(na.rm = na.rm, fun.geometry = fun.geometry, 
+        ...))"
+ggplot2,layer_sf,285,ggplot2,geom_sf_label,R/geom-sf.R,195,235,"layer_sf(data = data, mapping = mapping, stat = stat, geom = GeomLabel, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(parse = parse, label.padding = label.padding, 
+        label.r = label.r, label.size = label.size, na.rm = na.rm, 
+        fun.geometry = fun.geometry, ...))"
+ggplot2,layer_sf,285,ggplot2,geom_sf_text,R/geom-sf.R,241,277,"layer_sf(data = data, mapping = mapping, stat = stat, geom = GeomText, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(parse = parse, check_overlap = check_overlap, 
+        na.rm = na.rm, fun.geometry = fun.geometry, ...))"
+ggplot2,layer_sf,285,ggplot2,stat_sf,R/stat-sf.R,22,39,"layer_sf(stat = StatSf, data = data, mapping = mapping, geom = geom, 
+    position = position, show.legend = if (is.character(show.legend)) TRUE else show.legend, 
+    inherit.aes = inherit.aes, params = list(na.rm = na.rm, legend = if (is.character(show.legend)) show.legend else ""polygon"", 
+        ...))"
+ggplot2,layer_sf,285,ggplot2,geom_sf,R/geom-sf.R,169,189,"layer_sf(geom = GeomSf, data = data, mapping = mapping, stat = stat, 
+    position = position, show.legend = if (is.character(show.legend)) TRUE else show.legend, 
+    inherit.aes = inherit.aes, params = list(na.rm = na.rm, legend = if (is.character(show.legend)) show.legend else ""polygon"", 
+        ...))"
+ggplot2,coord_cartesian,318,ggplot2,ggplot.default,R/plot.r,80,103,coord_cartesian(default = TRUE)
+ggplot2,ggplot_gtable,325,ggplot2,benchplot,R/bench.r,15,31,ggplot_gtable(data)
+ggplot2,ggplot_gtable,325,ggplot2,plot.ggplot,R/plot.r,156,180,ggplot_gtable(data)
+ggplot2,ggplot_gtable,325,ggplot2,print.ggplot,R/plot.r,156,180,ggplot_gtable(data)
+ggplot2,ggplot_gtable,325,ggplot2,ggplotGrob,R/plot-build.r,371,373,ggplot_gtable(ggplot_build(x))
+ggplot2,layer,326,ggplot2,geom_label,R/geom-label.R,6,43,"layer(data = data, mapping = mapping, stat = stat, geom = GeomLabel, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(parse = parse, label.padding = label.padding, 
+        label.r = label.r, label.size = label.size, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_polygon,R/geom-polygon.r,81,102,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPolygon, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, rule = rule, ...))"
+ggplot2,layer,326,ggplot2,annotation_logticks,R/annotation-logticks.r,76,105,"layer(data = dummy_data(), mapping = NULL, stat = StatIdentity, 
+    geom = GeomLogticks, position = PositionIdentity, show.legend = FALSE, 
+    inherit.aes = FALSE, params = list(base = base, sides = sides, 
+        scaled = scaled, short = short, mid = mid, long = long, 
+        colour = colour, size = size, linetype = linetype, alpha = alpha, 
+        ...))"
+ggplot2,layer,326,ggplot2,stat_identity,R/stat-identity.r,11,29,"layer(data = data, mapping = mapping, stat = StatIdentity, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = FALSE, ...))"
+ggplot2,layer,326,ggplot2,geom_segment,R/geom-segment.r,68,95,"layer(data = data, mapping = mapping, stat = stat, geom = GeomSegment, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(arrow = arrow, arrow.fill = arrow.fill, lineend = lineend, 
+        linejoin = linejoin, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_errorbar,R/geom-errorbar.r,3,22,"layer(data = data, mapping = mapping, stat = stat, geom = GeomErrorbar, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_qq_line,R/stat-qq-line.R,7,36,"layer(data = data, mapping = mapping, stat = StatQqLine, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(distribution = distribution, dparams = dparams, 
+        na.rm = na.rm, line.p = line.p, fullrange = fullrange, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_spoke,R/geom-spoke.r,23,42,"layer(data = data, mapping = mapping, geom = GeomSpoke, stat = stat, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_tile,R/geom-tile.r,58,79,"layer(data = data, mapping = mapping, stat = stat, geom = GeomTile, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(linejoin = linejoin, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_map,R/geom-map.r,62,90,"layer(data = data, mapping = mapping, stat = stat, geom = GeomMap, 
+    position = PositionIdentity, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(map = map, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_text,R/geom-text.r,126,160,"layer(data = data, mapping = mapping, stat = stat, geom = GeomText, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(parse = parse, check_overlap = check_overlap, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_pointrange,R/geom-pointrange.r,3,24,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPointrange, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fatten = fatten, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_dotplot,R/geom-dotplot.r,117,171,"layer(data = data, mapping = mapping, stat = StatBindot, geom = GeomDotplot, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(binaxis = binaxis, binwidth = binwidth, binpositions = binpositions, 
+        method = method, origin = origin, right = right, width = width, 
+        drop = drop, stackdir = stackdir, stackratio = stackratio, 
+        dotsize = dotsize, stackgroups = stackgroups, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_ribbon,R/geom-ribbon.r,34,53,"layer(data = data, mapping = mapping, stat = stat, geom = GeomRibbon, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_boxplot,R/geom-boxplot.r,105,154,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBoxplot, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(outlier.colour = outlier.color %||% outlier.colour, 
+        outlier.fill = outlier.fill, outlier.shape = outlier.shape, 
+        outlier.size = outlier.size, outlier.stroke = outlier.stroke, 
+        outlier.alpha = outlier.alpha, notch = notch, notchwidth = notchwidth, 
+        varwidth = varwidth, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_summary_hex,R/stat-summary-hex.r,4,33,"layer(data = data, mapping = mapping, stat = StatSummaryHex, 
+    geom = geom, position = position, show.legend = show.legend, 
+    inherit.aes = inherit.aes, params = list(bins = bins, binwidth = binwidth, 
+        drop = drop, fun = fun, fun.args = fun.args, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_density_2d,R/geom-density2d.r,47,72,"layer(data = data, mapping = mapping, stat = stat, geom = GeomDensity2d, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(lineend = lineend, linejoin = linejoin, linemitre = linemitre, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_bin_hex,R/stat-binhex.r,11,34,"layer(data = data, mapping = mapping, stat = StatBinhex, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bins = bins, binwidth = binwidth, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_step,R/geom-path.r,271,288,"layer(data = data, mapping = mapping, stat = stat, geom = GeomStep, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(direction = direction, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_path,R/geom-path.r,92,119,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPath, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(lineend = lineend, linejoin = linejoin, linemitre = linemitre, 
+        arrow = arrow, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_function,R/stat-function.r,57,84,"layer(data = data, mapping = mapping, stat = StatFunction, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fun = fun, n = n, args = args, na.rm = na.rm, 
+        xlim = xlim, ...))"
+ggplot2,layer,326,ggplot2,stat_density,R/stat-density.r,29,59,"layer(data = data, mapping = mapping, stat = StatDensity, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bw = bw, adjust = adjust, kernel = kernel, 
+        n = n, trim = trim, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,layer_sf,R/layer-sf.R,11,22,"layer(geom = geom, stat = stat, data = data, mapping = mapping, 
+    position = position, params = params, inherit.aes = inherit.aes, 
+    check.aes = check.aes, check.param = check.param, show.legend = show.legend, 
+    layer_class = LayerSf)"
+ggplot2,layer,326,ggplot2,stat_boxplot,R/stat-boxplot.r,16,37,"layer(data = data, mapping = mapping, stat = StatBoxplot, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, coef = coef, ...))"
+ggplot2,layer,326,ggplot2,geom_freqpoly,R/geom-freqpoly.r,3,25,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPath, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = params)"
+ggplot2,layer,326,ggplot2,geom_density2d,R/geom-density2d.r,47,72,"layer(data = data, mapping = mapping, stat = stat, geom = GeomDensity2d, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(lineend = lineend, linejoin = linejoin, linemitre = linemitre, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_abline,R/geom-abline.r,71,121,"layer(data = data, mapping = mapping, stat = StatIdentity, geom = GeomAbline, 
+    position = PositionIdentity, show.legend = show.legend, inherit.aes = FALSE, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_hex,R/geom-hex.r,30,49,"layer(data = data, mapping = mapping, stat = stat, geom = GeomHex, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_bin2d,R/geom-bin2d.r,27,47,"layer(data = data, mapping = mapping, stat = stat, geom = GeomTile, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_contour,R/stat-contour.r,11,30,"layer(data = data, mapping = mapping, stat = StatContour, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_col,R/geom-col.r,3,25,"layer(data = data, mapping = mapping, stat = ""identity"", geom = GeomCol, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(width = width, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_count,R/stat-count.r,14,41,"layer(data = data, mapping = mapping, stat = StatCount, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = params)"
+ggplot2,layer,326,ggplot2,stat_quantile,R/stat-quantile.r,13,40,"layer(data = data, mapping = mapping, stat = StatQuantile, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(quantiles = quantiles, formula = formula, method = method, 
+        method.args = method.args, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_summary_bin,R/stat-summary-bin.R,4,39,"layer(data = data, mapping = mapping, stat = StatSummaryBin, 
+    geom = geom, position = position, show.legend = show.legend, 
+    inherit.aes = inherit.aes, params = list(fun.data = fun.data, 
+        fun.y = fun.y, fun.ymax = fun.ymax, fun.ymin = fun.ymin, 
+        fun.args = fun.args, bins = bins, binwidth = binwidth, 
+        breaks = breaks, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_binhex,R/stat-binhex.r,11,34,"layer(data = data, mapping = mapping, stat = StatBinhex, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bins = bins, binwidth = binwidth, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_hline,R/geom-hline.r,6,40,"layer(data = data, mapping = mapping, stat = StatIdentity, geom = GeomHline, 
+    position = PositionIdentity, show.legend = show.legend, inherit.aes = FALSE, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,annotation_raster,R/annotation-raster.r,40,61,"layer(data = dummy_data(), mapping = NULL, stat = StatIdentity, 
+    position = PositionIdentity, geom = GeomRasterAnn, inherit.aes = FALSE, 
+    params = list(raster = raster, xmin = xmin, xmax = xmax, 
+        ymin = ymin, ymax = ymax, interpolate = interpolate))"
+ggplot2,layer,326,ggplot2,geom_violin,R/geom-violin.r,71,96,"layer(data = data, mapping = mapping, stat = stat, geom = GeomViolin, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(trim = trim, scale = scale, draw_quantiles = draw_quantiles, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_point,R/geom-point.r,83,102,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPoint, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_linerange,R/geom-linerange.r,60,79,"layer(data = data, mapping = mapping, stat = stat, geom = GeomLinerange, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_raster,R/geom-raster.r,11,40,"layer(data = data, mapping = mapping, stat = stat, geom = GeomRaster, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(hjust = hjust, vjust = vjust, interpolate = interpolate, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_errorbarh,R/geom-errorbarh.r,24,43,"layer(data = data, mapping = mapping, stat = stat, geom = GeomErrorbarh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_jitter,R/geom-jitter.r,32,61,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPoint, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_qq,R/stat-qq.r,48,71,"layer(data = data, mapping = mapping, stat = StatQq, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(distribution = distribution, dparams = dparams, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_rect,R/geom-rect.r,3,24,"layer(data = data, mapping = mapping, stat = stat, geom = GeomRect, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(linejoin = linejoin, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_crossbar,R/geom-crossbar.r,3,24,"layer(data = data, mapping = mapping, stat = stat, geom = GeomCrossbar, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fatten = fatten, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_vline,R/geom-vline.r,6,40,"layer(data = data, mapping = mapping, stat = StatIdentity, geom = GeomVline, 
+    position = PositionIdentity, show.legend = show.legend, inherit.aes = FALSE, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_bar,R/geom-bar.r,74,105,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBar, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(width = width, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_bin_2d,R/stat-bin2d.r,15,40,"layer(data = data, mapping = mapping, stat = StatBin2d, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bins = bins, binwidth = binwidth, drop = drop, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_unique,R/stat-unique.r,12,31,"layer(data = data, mapping = mapping, stat = StatUnique, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_summary,R/stat-summary.r,104,133,"layer(data = data, mapping = mapping, stat = StatSummary, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fun.data = fun.data, fun.y = fun.y, fun.ymax = fun.ymax, 
+        fun.ymin = fun.ymin, fun.args = fun.args, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,stat_smooth,R/stat-smooth.r,37,72,"layer(data = data, mapping = mapping, stat = StatSmooth, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(method = method, formula = formula, se = se, 
+        n = n, fullrange = fullrange, level = level, na.rm = na.rm, 
+        method.args = method.args, span = span, ...))"
+ggplot2,layer,326,ggplot2,geom_contour,R/geom-contour.r,43,68,"layer(data = data, mapping = mapping, stat = stat, geom = GeomContour, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(lineend = lineend, linejoin = linejoin, linemitre = linemitre, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_bin2d,R/stat-bin2d.r,15,40,"layer(data = data, mapping = mapping, stat = StatBin2d, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bins = bins, binwidth = binwidth, drop = drop, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_curve,R/geom-curve.r,4,35,"layer(data = data, mapping = mapping, stat = stat, geom = GeomCurve, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(arrow = arrow, arrow.fill = arrow.fill, curvature = curvature, 
+        angle = angle, ncp = ncp, lineend = lineend, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_area,R/geom-ribbon.r,124,140,"layer(data = data, mapping = mapping, stat = stat, geom = GeomArea, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_summary_2d,R/stat-summary-2d.r,39,68,"layer(data = data, mapping = mapping, stat = StatSummary2d, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bins = bins, binwidth = binwidth, drop = drop, 
+        fun = fun, fun.args = fun.args, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_line,R/geom-path.r,238,254,"layer(data = data, mapping = mapping, stat = stat, geom = GeomLine, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,annotate,R/annotation.r,37,71,"layer(geom = geom, params = list(na.rm = na.rm, ...), stat = StatIdentity, 
+    position = PositionIdentity, data = data, mapping = aes_all(names(data)), 
+    inherit.aes = FALSE, show.legend = FALSE)"
+ggplot2,layer,326,ggplot2,geom_count,R/geom-count.r,44,63,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPoint, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_sum,R/stat-sum.r,10,29,"layer(data = data, mapping = mapping, stat = StatSum, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_blank,R/geom-blank.r,13,29,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBlank, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(...), check.aes = FALSE)"
+ggplot2,layer,326,ggplot2,annotation_custom,R/annotation-custom.r,44,59,"layer(data = dummy_data(), stat = StatIdentity, position = PositionIdentity, 
+    geom = GeomCustomAnn, inherit.aes = FALSE, params = list(grob = grob, 
+        xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax))"
+ggplot2,layer,326,ggplot2,stat_bin,R/stat-bin.r,43,77,"layer(data = data, mapping = mapping, stat = StatBin, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(binwidth = binwidth, bins = bins, center = center, 
+        boundary = boundary, breaks = breaks, closed = closed, 
+        pad = pad, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_ecdf,R/stat-ecdf.r,36,59,"layer(data = data, mapping = mapping, stat = StatEcdf, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(n = n, pad = pad, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_rug,R/geom-rug.r,53,78,"layer(data = data, mapping = mapping, stat = stat, geom = GeomRug, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(outside = outside, sides = sides, length = length, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_density2d,R/stat-density-2d.r,16,41,"layer(data = data, mapping = mapping, stat = StatDensity2d, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, contour = contour, n = n, h = h, 
+        ...))"
+ggplot2,layer,326,ggplot2,stat_ydensity,R/stat-ydensity.r,21,52,"layer(data = data, mapping = mapping, stat = StatYdensity, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bw = bw, adjust = adjust, kernel = kernel, 
+        trim = trim, scale = scale, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,stat_density_2d,R/stat-density-2d.r,16,41,"layer(data = data, mapping = mapping, stat = StatDensity2d, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, contour = contour, n = n, h = h, 
+        ...))"
+ggplot2,layer,326,ggplot2,geom_qq_line,R/stat-qq-line.R,7,36,"layer(data = data, mapping = mapping, stat = StatQqLine, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(distribution = distribution, dparams = dparams, 
+        na.rm = na.rm, line.p = line.p, fullrange = fullrange, 
+        ...))"
+ggplot2,layer,326,ggplot2,annotation_map,R/annotation-map.r,32,48,"layer(data = dummy_data(), stat = StatIdentity, geom = GeomAnnotationMap, 
+    position = PositionIdentity, inherit.aes = FALSE, params = list(map = map, 
+        ...))"
+ggplot2,layer,326,ggplot2,stat_ellipse,R/stat-ellipse.R,43,68,"layer(data = data, mapping = mapping, stat = StatEllipse, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(type = type, level = level, segments = segments, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_quantile,R/geom-quantile.r,30,56,"layer(data = data, mapping = mapping, stat = stat, geom = GeomQuantile, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(lineend = lineend, linejoin = linejoin, linemitre = linemitre, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_qq,R/stat-qq.r,48,71,"layer(data = data, mapping = mapping, stat = StatQq, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(distribution = distribution, dparams = dparams, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_density,R/geom-density.r,48,68,"layer(data = data, mapping = mapping, stat = stat, geom = GeomDensity, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggplot2,geom_histogram,R/geom-histogram.r,87,112,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBar, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(binwidth = binwidth, bins = bins, na.rm = na.rm, 
+        pad = FALSE, ...))"
+ggplot2,layer,326,ggplot2,geom_smooth,R/geom-smooth.r,78,108,"layer(data = data, mapping = mapping, stat = stat, geom = GeomSmooth, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = params)"
+ggplot2,%+%,335,ggplot2,ggplot_add.list,R/plot-construction.r,148,153,plot %+% o
+ggplot2,ylab,336,ggplot2,qplot,R/quick-plot.r,62,161,ylab(ylab)
+ggplot2,ylab,336,ggplot2,quickplot,R/quick-plot.r,62,161,ylab(ylab)
+ggplot2,margin,341,ggplot2,theme_light,R/theme-defaults.r,310,349,"margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * 
+    half_line)"
+ggplot2,margin,341,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,margin()
+ggplot2,margin,341,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * 
+    half_line)"
+ggplot2,margin,341,ggplot2,theme,R/theme.r,261,407,margin()
+ggplot2,margin,341,ggplot2,theme_void,R/theme-defaults.r,450,507,margin()
+ggplot2,margin,341,ggplot2,theme_void,R/theme-defaults.r,450,507,margin(t = half_line)
+ggplot2,margin,341,ggplot2,theme_void,R/theme-defaults.r,450,507,margin(t = half_line)
+ggplot2,margin,341,ggplot2,theme_void,R/theme-defaults.r,450,507,margin(t = half_line)
+ggplot2,margin,341,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,margin()
+ggplot2,margin,341,ggplot2,add_margins,R/margins.R,106,155,"margin(0, 0, 0, 0)"
+ggplot2,margin,341,ggplot2,guides_build,R/guides-.r,238,298,margin()
+ggplot2,margin,341,ggplot2,theme_dark,R/theme-defaults.r,353,390,"margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * 
+    half_line)"
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin()
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(t = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(b = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(r = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(l = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(t = half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(b = half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(r = half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(l = half_line/2)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,"margin(0, 0, 0, 0, ""cm"")"
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,"margin(0, 0, 0, 0, ""cm"")"
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,"margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * 
+    half_line)"
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(b = half_line)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(b = half_line)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,margin(t = half_line)
+ggplot2,margin,341,ggplot2,theme_test,R/theme-defaults.r,512,636,"margin(half_line, half_line, half_line, half_line)"
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin()
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(t = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(b = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(r = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(l = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(t = half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(b = half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(r = half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(l = half_line/2)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,"margin(half_line, half_line, half_line, half_line)"
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,"margin(0, 0, 0, 0, ""cm"")"
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,"margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * 
+    half_line)"
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(b = half_line)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(b = half_line)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,margin(t = half_line)
+ggplot2,margin,341,ggplot2,theme_grey,R/theme-defaults.r,98,235,"margin(half_line, half_line, half_line, half_line)"
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin()
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(t = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(b = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(r = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(l = 0.8 * half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(t = half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(b = half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(r = half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(l = half_line/2)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,"margin(half_line, half_line, half_line, half_line)"
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,"margin(0, 0, 0, 0, ""cm"")"
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,"margin(0.8 * half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * 
+    half_line)"
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(b = half_line)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(b = half_line)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,margin(t = half_line)
+ggplot2,margin,341,ggplot2,theme_gray,R/theme-defaults.r,98,235,"margin(half_line, half_line, half_line, half_line)"
+ggplot2,is.theme,344,ggplot2,%+%,R/plot-construction.r,40,58,is.theme(e1)
+ggplot2,is.theme,344,ggplot2,add_theme,R/theme.r,429,461,is.theme(t2)
+ggplot2,is.theme,344,ggplot2,+.gg,R/plot-construction.r,40,58,is.theme(e1)
+ggplot2,is.theme,344,ggplot2,%+replace%,R/theme-current.R,100,108,is.theme(e1)
+ggplot2,is.theme,344,ggplot2,%+replace%,R/theme-current.R,100,108,is.theme(e2)
+ggplot2,draw_key_point,351,ggplot2,draw_key_pointrange,R/legend-draw.r,176,181,"draw_key_point(transform(data, size = (data$size %||% 1.5) * 
+    4), params)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,"calc_element(""legend.title"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,"calc_element(""legend.title"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,"calc_element(""text"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.legend,R/guide-legend.r,301,717,"calc_element(""legend.text"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,"calc_element(""legend.title"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,"calc_element(""legend.title"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,"calc_element(""text"", theme)"
+ggplot2,calc_element,354,ggplot2,guide_gengrob.colorbar,R/guide-colorbar.r,262,546,"calc_element(""legend.text"", theme)"
+ggplot2,calc_element,354,ggplot2,element_render,R/theme-elements.r,144,155,"calc_element(element, theme)"
+ggplot2,calc_element,354,ggplot2,build_strip,R/labeller.r,486,566,"calc_element(text_theme, theme)"
+ggplot2,as_labeller,356,ggplot2,labeller,R/labeller.r,424,474,as_labeller(.default)
+ggplot2,as_labeller,356,ggplot2,labeller,R/labeller.r,424,474,"as_labeller(margin_labeller, default = .default, multi_line = .multi_line)"
+ggplot2,scale_x_continuous,369,ggplot2,scale_x_time,R/scale-date.r,203,227,"scale_x_continuous(name = name, breaks = breaks, labels = labels, 
+    minor_breaks = minor_breaks, limits = limits, expand = expand, 
+    oob = oob, na.value = na.value, position = position, trans = scales::hms_trans(), 
+    sec.axis = sec.axis)"
+ggplot2,scale_x_continuous,369,ggplot2,scale_x_reverse,R/scale-continuous.r,164,166,"scale_x_continuous(..., trans = reverse_trans())"
+ggplot2,scale_x_continuous,369,ggplot2,scale_x_sqrt,R/scale-continuous.r,174,176,"scale_x_continuous(..., trans = sqrt_trans())"
+ggplot2,scale_x_continuous,369,ggplot2,scale_x_log10,R/scale-continuous.r,154,156,"scale_x_continuous(..., trans = log10_trans())"
+ggplot2,position_nudge,377,ggplot2,geom_label,R/geom-label.R,6,43,"position_nudge(nudge_x, nudge_y)"
+ggplot2,position_nudge,377,ggplot2,geom_text,R/geom-text.r,126,160,"position_nudge(nudge_x, nudge_y)"
+ggplot2,position_nudge,377,ggplot2,geom_sf_label,R/geom-sf.R,195,235,"position_nudge(nudge_x, nudge_y)"
+ggplot2,position_nudge,377,ggplot2,geom_sf_text,R/geom-sf.R,241,277,"position_nudge(nudge_x, nudge_y)"
+ggplot2,theme_bw,395,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"theme_bw(base_size = base_size, base_family = base_family, base_line_size = base_line_size, 
+    base_rect_size = base_rect_size)"
+ggplot2,theme_bw,395,ggplot2,theme_classic,R/theme-defaults.r,419,446,"theme_bw(base_size = base_size, base_family = base_family, base_line_size = base_line_size, 
+    base_rect_size = base_rect_size)"
+ggplot2,theme_bw,395,ggplot2,theme_minimal,R/theme-defaults.r,394,415,"theme_bw(base_size = base_size, base_family = base_family, base_line_size = base_line_size, 
+    base_rect_size = base_rect_size)"
+ggplot2,gg_dep,398,ggplot2,coord_trans,R/coord-transform.r,81,108,"gg_dep(""1.0.1"", ""`xtrans` arguments is deprecated; please use `x` instead."")"
+ggplot2,gg_dep,398,ggplot2,coord_trans,R/coord-transform.r,81,108,"gg_dep(""1.0.1"", ""`ytrans` arguments is deprecated; please use `y` instead."")"
+ggplot2,scale_shape_discrete,399,ggplot2,scale_shape_ordinal,R/scale-shape.r,49,52,scale_shape(...)
+ggplot2,coord_sf,416,ggplot2,geom_sf,R/geom-sf.R,169,189,coord_sf(default = TRUE)
+ggplot2,mean_se,418,ggplot2,make_summary_fun,R/stat-summary-bin.R,67,101,mean_se(df$y)
+ggplot2,resolution,428,ggplot2,hexGrob,R/geom-hex.r,96,112,"resolution(x, FALSE)"
+ggplot2,resolution,428,ggplot2,hexGrob,R/geom-hex.r,96,112,"resolution(y, FALSE)"
+ggplot2,ggplot_build,434,ggplot2,layer_grob,R/plot-build.r,136,140,ggplot_build(plot)
+ggplot2,ggplot_build,434,ggplot2,benchplot,R/bench.r,15,31,ggplot_build(x)
+ggplot2,ggplot_build,434,ggplot2,layer_data,R/plot-build.r,116,118,ggplot_build(plot)
+ggplot2,ggplot_build,434,ggplot2,plot.ggplot,R/plot.r,156,180,ggplot_build(x)
+ggplot2,ggplot_build,434,ggplot2,print.ggplot,R/plot.r,156,180,ggplot_build(x)
+ggplot2,ggplot_build,434,ggplot2,layer_scales,R/plot-build.r,122,132,ggplot_build(plot)
+ggplot2,ggplot_build,434,ggplot2,ggplotGrob,R/plot-build.r,371,373,ggplot_build(x)
+ggplot2,aes,442,ggplot2,geom_abline,R/geom-abline.r,71,121,"aes(intercept = intercept, slope = slope)"
+ggplot2,aes,442,ggplot2,geom_hline,R/geom-hline.r,6,40,aes(yintercept = yintercept)
+ggplot2,aes,442,ggplot2,geom_vline,R/geom-vline.r,6,40,aes(xintercept = xintercept)
+ggplot2,element_line,454,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_line(colour = ""grey87"")"
+ggplot2,element_line,454,ggplot2,theme_light,R/theme-defaults.r,310,349,element_line(size = rel(0.5))
+ggplot2,element_line,454,ggplot2,theme_light,R/theme-defaults.r,310,349,element_line(size = rel(0.25))
+ggplot2,element_line,454,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_line(colour = ""grey70"", size = rel(0.5))"
+ggplot2,element_line,454,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"element_line(colour = ""black"", size = rel(0.5))"
+ggplot2,element_line,454,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"element_line(colour = ""black"")"
+ggplot2,element_line,454,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,element_line(size = rel(0.1))
+ggplot2,element_line,454,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,element_line(size = rel(0.05))
+ggplot2,element_line,454,ggplot2,theme_classic,R/theme-defaults.r,419,446,"element_line(colour = ""black"", size = rel(1))"
+ggplot2,element_line,454,ggplot2,theme_bw,R/theme-defaults.r,242,266,"element_line(colour = ""grey92"")"
+ggplot2,element_line,454,ggplot2,theme_bw,R/theme-defaults.r,242,266,element_line(size = rel(0.5))
+ggplot2,element_line,454,ggplot2,theme_dark,R/theme-defaults.r,353,390,"element_line(colour = ""grey42"")"
+ggplot2,element_line,454,ggplot2,theme_dark,R/theme-defaults.r,353,390,element_line(size = rel(0.5))
+ggplot2,element_line,454,ggplot2,theme_dark,R/theme-defaults.r,353,390,element_line(size = rel(0.25))
+ggplot2,element_line,454,ggplot2,theme_dark,R/theme-defaults.r,353,390,"element_line(colour = ""grey20"", size = rel(0.5))"
+ggplot2,element_line,454,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_line(colour = ""black"", size = base_line_size, linetype = 1, 
+    lineend = ""butt"")"
+ggplot2,element_line,454,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_line(colour = ""grey20"")"
+ggplot2,element_line,454,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_line(colour = ""black"", size = base_line_size, linetype = 1, 
+    lineend = ""butt"")"
+ggplot2,element_line,454,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_line(colour = ""grey20"")"
+ggplot2,element_line,454,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_line(colour = ""white"")"
+ggplot2,element_line,454,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_line(size = rel(0.5))
+ggplot2,element_line,454,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_line(colour = ""black"", size = base_line_size, linetype = 1, 
+    lineend = ""butt"")"
+ggplot2,element_line,454,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_line(colour = ""grey20"")"
+ggplot2,element_line,454,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_line(colour = ""white"")"
+ggplot2,element_line,454,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_line(size = rel(0.5))
+ggplot2,draw_key_rect,460,ggplot2,draw_key_label,R/legend-draw.r,213,218,"draw_key_rect(data, list())"
+ggplot2,element_rect,478,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_rect(fill = ""white"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_rect(fill = NA, colour = ""grey70"", size = rel(1))"
+ggplot2,element_rect,478,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_rect(fill = ""white"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_rect(fill = ""grey70"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"element_rect(fill = NA, colour = ""black"", size = rel(1))"
+ggplot2,element_rect,478,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"element_rect(fill = ""black"")"
+ggplot2,element_rect,478,ggplot2,theme_classic,R/theme-defaults.r,419,446,"element_rect(fill = ""white"", colour = ""black"", size = rel(2))"
+ggplot2,element_rect,478,ggplot2,theme_bw,R/theme-defaults.r,242,266,"element_rect(fill = ""white"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_bw,R/theme-defaults.r,242,266,"element_rect(fill = NA, colour = ""grey20"")"
+ggplot2,element_rect,478,ggplot2,theme_bw,R/theme-defaults.r,242,266,"element_rect(fill = ""grey85"", colour = ""grey20"")"
+ggplot2,element_rect,478,ggplot2,theme_bw,R/theme-defaults.r,242,266,"element_rect(fill = ""white"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_dark,R/theme-defaults.r,353,390,"element_rect(fill = ""grey50"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_dark,R/theme-defaults.r,353,390,"element_rect(fill = ""grey50"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_dark,R/theme-defaults.r,353,390,"element_rect(fill = ""grey15"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_rect(fill = ""white"", colour = ""black"", size = base_rect_size, 
+    linetype = 1)"
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,element_rect(colour = NA)
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_rect(fill = ""white"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_rect(fill = ""white"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_rect(fill = NA, colour = ""grey20"")"
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_rect(fill = ""grey85"", colour = ""grey20"")"
+ggplot2,element_rect,478,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_rect(colour = ""white"")"
+ggplot2,element_rect,478,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_rect(fill = ""white"", colour = ""black"", size = base_rect_size, 
+    linetype = 1)"
+ggplot2,element_rect,478,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_rect(colour = NA)
+ggplot2,element_rect,478,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_rect(fill = ""grey95"", colour = ""white"")"
+ggplot2,element_rect,478,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_rect(fill = ""grey92"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_rect(fill = ""grey85"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_rect(colour = ""white"")"
+ggplot2,element_rect,478,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_rect(fill = ""white"", colour = ""black"", size = base_rect_size, 
+    linetype = 1)"
+ggplot2,element_rect,478,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_rect(colour = NA)
+ggplot2,element_rect,478,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_rect(fill = ""grey95"", colour = ""white"")"
+ggplot2,element_rect,478,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_rect(fill = ""grey92"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_rect(fill = ""grey85"", colour = NA)"
+ggplot2,element_rect,478,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_rect(colour = ""white"")"
+ggplot2,panel_cols,493,ggplot2,weave_tables_row,R/facet-wrap.r,488,499,panel_cols(table)
+ggplot2,panel_cols,493,ggplot2,weave_tables_col,R/facet-wrap.r,476,487,panel_cols(table)
+ggplot2,ylim,504,ggplot2,qplot,R/quick-plot.r,62,161,ylim(ylim)
+ggplot2,ylim,504,ggplot2,quickplot,R/quick-plot.r,62,161,ylim(ylim)
+ggplot2,element_text,507,ggplot2,theme_light,R/theme-defaults.r,310,349,"element_text(colour = ""white"", size = rel(0.8), margin = margin(0.8 * 
+    half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line))"
+ggplot2,element_text,507,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"element_text(colour = ""black"", size = rel(0.8))"
+ggplot2,element_text,507,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"element_text(colour = ""white"", size = rel(0.8), margin = margin(0.8 * 
+    half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line))"
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,"element_text(family = base_family, face = ""plain"", colour = ""black"", 
+    size = base_size, lineheight = 0.9, hjust = 0.5, vjust = 0.5, 
+    angle = 0, margin = margin(), debug = FALSE)"
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,element_text(size = rel(0.8))
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,element_text(hjust = 0)
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,element_text(size = rel(0.8))
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,"element_text(size = rel(1.2), hjust = 0, vjust = 1, margin = margin(t = half_line))"
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,"element_text(hjust = 0, vjust = 1, margin = margin(t = half_line))"
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,"element_text(size = rel(0.8), hjust = 1, vjust = 1, margin = margin(t = half_line))"
+ggplot2,element_text,507,ggplot2,theme_void,R/theme-defaults.r,450,507,"element_text(size = rel(1.2), hjust = 0.5, vjust = 0.5)"
+ggplot2,element_text,507,ggplot2,theme_dark,R/theme-defaults.r,353,390,"element_text(colour = ""grey90"", size = rel(0.8), margin = margin(0.8 * 
+    half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line))"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(family = base_family, face = ""plain"", colour = ""black"", 
+    size = base_size, lineheight = 0.9, hjust = 0.5, vjust = 0.5, 
+    angle = 0, margin = margin(), debug = FALSE)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(size = rel(0.8), colour = ""grey30"")"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(margin = margin(t = 0.8 * half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(margin = margin(b = 0.8 * half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(margin = margin(r = 0.8 * half_line/2), hjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(margin = margin(l = 0.8 * half_line/2), hjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(margin = margin(t = half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(margin = margin(b = half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(angle = 90, margin = margin(r = half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(angle = -90, margin = margin(l = half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,element_text(size = rel(0.8))
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,element_text(hjust = 0)
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(colour = ""grey10"", size = rel(0.8), margin = margin(0.8 * 
+    half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line))"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,element_text(angle = -90)
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(size = rel(1.2), hjust = 0, vjust = 1, margin = margin(b = half_line))"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(hjust = 0, vjust = 1, margin = margin(b = half_line))"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(size = rel(0.8), hjust = 1, vjust = 1, margin = margin(t = half_line))"
+ggplot2,element_text,507,ggplot2,theme_test,R/theme-defaults.r,512,636,"element_text(size = rel(1.2), hjust = 0.5, vjust = 0.5)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(family = base_family, face = ""plain"", colour = ""black"", 
+    size = base_size, lineheight = 0.9, hjust = 0.5, vjust = 0.5, 
+    angle = 0, margin = margin(), debug = FALSE)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(size = rel(0.8), colour = ""grey30"")"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(margin = margin(t = 0.8 * half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(margin = margin(b = 0.8 * half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(margin = margin(r = 0.8 * half_line/2), hjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(margin = margin(l = 0.8 * half_line/2), hjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(margin = margin(t = half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(margin = margin(b = half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(angle = 90, margin = margin(r = half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(angle = -90, margin = margin(l = half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_text(size = rel(0.8))
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_text(hjust = 0)
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(colour = ""grey10"", size = rel(0.8), margin = margin(0.8 * 
+    half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line))"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,element_text(angle = -90)
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(size = rel(1.2), hjust = 0, vjust = 1, margin = margin(b = half_line))"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(hjust = 0, vjust = 1, margin = margin(b = half_line))"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(size = rel(0.8), hjust = 1, vjust = 1, margin = margin(t = half_line))"
+ggplot2,element_text,507,ggplot2,theme_grey,R/theme-defaults.r,98,235,"element_text(size = rel(1.2), hjust = 0.5, vjust = 0.5)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(family = base_family, face = ""plain"", colour = ""black"", 
+    size = base_size, lineheight = 0.9, hjust = 0.5, vjust = 0.5, 
+    angle = 0, margin = margin(), debug = FALSE)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(size = rel(0.8), colour = ""grey30"")"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(margin = margin(t = 0.8 * half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(margin = margin(b = 0.8 * half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(margin = margin(r = 0.8 * half_line/2), hjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(margin = margin(l = 0.8 * half_line/2), hjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(margin = margin(t = half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(margin = margin(b = half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(angle = 90, margin = margin(r = half_line/2), vjust = 1)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(angle = -90, margin = margin(l = half_line/2), vjust = 0)"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_text(size = rel(0.8))
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_text(hjust = 0)
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(colour = ""grey10"", size = rel(0.8), margin = margin(0.8 * 
+    half_line, 0.8 * half_line, 0.8 * half_line, 0.8 * half_line))"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,element_text(angle = -90)
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(size = rel(1.2), hjust = 0, vjust = 1, margin = margin(b = half_line))"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(hjust = 0, vjust = 1, margin = margin(b = half_line))"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(size = rel(0.8), hjust = 1, vjust = 1, margin = margin(t = half_line))"
+ggplot2,element_text,507,ggplot2,theme_gray,R/theme-defaults.r,98,235,"element_text(size = rel(1.2), hjust = 0.5, vjust = 0.5)"
+ggplot2,map_data,509,ggplot2,borders,R/fortify-map.r,130,135,"map_data(database, regions, xlim = xlim, ylim = ylim)"
+ggplot2,is.ggplot,516,ggplot2,%+%,R/plot-construction.r,40,58,is.ggplot(e1)
+ggplot2,is.ggplot,516,ggplot2,+.gg,R/plot-construction.r,40,58,is.ggplot(e1)
+ggplot2,xlab,517,ggplot2,qplot,R/quick-plot.r,62,161,xlab(xlab)
+ggplot2,xlab,517,ggplot2,quickplot,R/quick-plot.r,62,161,xlab(xlab)
+ggplot2,draw_key_path,522,ggplot2,draw_key_smooth,R/legend-draw.r,185,193,"draw_key_path(data, params)"
+ggplot2,rel,546,ggplot2,theme_light,R/theme-defaults.r,310,349,rel(1)
+ggplot2,rel,546,ggplot2,theme_light,R/theme-defaults.r,310,349,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_light,R/theme-defaults.r,310,349,rel(0.25)
+ggplot2,rel,546,ggplot2,theme_light,R/theme-defaults.r,310,349,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_light,R/theme-defaults.r,310,349,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,rel(1)
+ggplot2,rel,546,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,rel(0.1)
+ggplot2,rel,546,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,rel(0.05)
+ggplot2,rel,546,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_classic,R/theme-defaults.r,419,446,rel(1)
+ggplot2,rel,546,ggplot2,theme_classic,R/theme-defaults.r,419,446,rel(2)
+ggplot2,rel,546,ggplot2,theme_void,R/theme-defaults.r,450,507,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_void,R/theme-defaults.r,450,507,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_void,R/theme-defaults.r,450,507,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_void,R/theme-defaults.r,450,507,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_void,R/theme-defaults.r,450,507,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_bw,R/theme-defaults.r,242,266,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_dark,R/theme-defaults.r,353,390,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_dark,R/theme-defaults.r,353,390,rel(0.25)
+ggplot2,rel,546,ggplot2,theme_dark,R/theme-defaults.r,353,390,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_dark,R/theme-defaults.r,353,390,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_test,R/theme-defaults.r,512,636,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_test,R/theme-defaults.r,512,636,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_test,R/theme-defaults.r,512,636,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_test,R/theme-defaults.r,512,636,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_test,R/theme-defaults.r,512,636,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_test,R/theme-defaults.r,512,636,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_grey,R/theme-defaults.r,98,235,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(0.5)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(1.2)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(0.8)
+ggplot2,rel,546,ggplot2,theme_gray,R/theme-defaults.r,98,235,rel(1.2)
+ggplot2,max_width,563,ggplot2,ggstrip,R/labeller.r,606,677,"max_width(lapply(grobs, function(x) x$text_width))"
+ggplot2,stat_summary_2d,589,ggplot2,stat_summary2d,R/stat-summary-2d.r,73,76,stat_summary_2d(...)
+ggplot2,draw_key_vpath,595,ggplot2,draw_key_pointrange,R/legend-draw.r,176,181,"draw_key_vpath(data, params, size)"
+ggplot2,geom_blank,627,ggplot2,ggplot_build.ggplot,R/plot-build.r,28,112,geom_blank()
+ggplot2,geom_blank,627,ggplot2,expand_limits,R/limits.r,145,154,"geom_blank(aes_all(names(data)), data, inherit.aes = FALSE)"
+ggplot2,max_height,630,ggplot2,ggstrip,R/labeller.r,606,677,"max_height(lapply(grobs, function(x) x$text_height))"
+ggplot2,scale_y_log10,639,ggplot2,qplot,R/quick-plot.r,62,161,scale_y_log10()
+ggplot2,scale_y_log10,639,ggplot2,quickplot,R/quick-plot.r,62,161,scale_y_log10()
+ggplot2,position_jitter,641,ggplot2,geom_jitter,R/geom-jitter.r,32,61,"position_jitter(width = width, height = height)"
+ggplot2,theme_grey,654,ggplot2,theme_light,R/theme-defaults.r,310,349,"theme_grey(base_size = base_size, base_family = base_family, 
+    base_line_size = base_line_size, base_rect_size = base_rect_size)"
+ggplot2,theme_grey,654,ggplot2,.onLoad,R/zzz.r,19,31,theme_gray()
+ggplot2,theme_grey,654,ggplot2,theme_bw,R/theme-defaults.r,242,266,"theme_grey(base_size = base_size, base_family = base_family, 
+    base_line_size = base_line_size, base_rect_size = base_rect_size)"
+ggplot2,theme_grey,654,ggplot2,theme_dark,R/theme-defaults.r,353,390,"theme_grey(base_size = base_size, base_family = base_family, 
+    base_line_size = base_line_size, base_rect_size = base_rect_size)"
+ggplot2,theme_grey,654,ggplot2,theme_set,R/theme-current.R,74,84,theme_gray()
+ggplot2,scale_fill_gradient,674,ggplot2,scale_fill_continuous,R/scale-colour.r,38,46,scale_fill_gradient(...)
+ggplot2,xlim,676,ggplot2,qplot,R/quick-plot.r,62,161,xlim(xlim)
+ggplot2,xlim,676,ggplot2,quickplot,R/quick-plot.r,62,161,xlim(xlim)
+ggplot2,facet_grid,680,ggplot2,qplot,R/quick-plot.r,62,161,"facet_grid(facets = deparse(facets), margins = margins)"
+ggplot2,facet_grid,680,ggplot2,quickplot,R/quick-plot.r,62,161,"facet_grid(facets = deparse(facets), margins = margins)"
+ggplot2,theme_set,706,ggplot2,theme_update,R/theme-current.R,88,90,theme_set(theme_get() + theme(...))
+ggplot2,theme_set,706,ggplot2,theme_replace,R/theme-current.R,94,96,theme_set(theme_get() %+replace% theme(...))
+ggplot2,update_labels,712,ggplot2,ggplot_add.labels,R/plot-construction.r,113,115,"update_labels(plot, object)"
+ggplot2,update_labels,712,ggplot2,ggplot_add.uneval,R/plot-construction.r,121,129,"update_labels(plot, labels)"
+ggplot2,label_both,723,ggplot2,label_context,R/labeller.r,143,149,"label_both(labels, multi_line)"
+ggplot2,scale_x_log10,728,ggplot2,qplot,R/quick-plot.r,62,161,scale_x_log10()
+ggplot2,scale_x_log10,728,ggplot2,quickplot,R/quick-plot.r,62,161,scale_x_log10()
+ggplot2,aes_all,775,ggplot2,annotate,R/annotation.r,37,71,aes_all(names(data))
+ggplot2,aes_all,775,ggplot2,expand_limits,R/limits.r,145,154,aes_all(names(data))
+ggplot2,draw_key_text,776,ggplot2,draw_key_label,R/legend-draw.r,213,218,"draw_key_text(data, list())"
+ggplot2,ggplot,801,ggplot2,qplot,R/quick-plot.r,62,161,"ggplot(data, mapping, environment = caller_env)"
+ggplot2,ggplot,801,ggplot2,quickplot,R/quick-plot.r,62,161,"ggplot(data, mapping, environment = caller_env)"
+ggplot2,geom_histogram,803,ggplot2,geom_bar,R/geom-bar.r,74,105,"geom_histogram(mapping = mapping, data = data, position = position, 
+    width = width, binwidth = binwidth, ..., na.rm = na.rm, show.legend = show.legend, 
+    inherit.aes = inherit.aes)"
+ggplot2,scale_size_ordinal,824,ggplot2,scale_size_discrete,R/scale-size.r,62,65,scale_size_ordinal(...)
+ggplot2,%+replace%,829,ggplot2,theme_light,R/theme-defaults.r,310,349,"theme_grey(base_size = base_size, base_family = base_family, 
+    base_line_size = base_line_size, base_rect_size = base_rect_size) %+replace% 
+    theme(panel.background = element_rect(fill = ""white"", colour = NA), 
+        panel.border = element_rect(fill = NA, colour = ""grey70"", 
+            size = rel(1)), panel.grid = element_line(colour = ""grey87""), 
+        panel.grid.major = element_line(size = rel(0.5)), panel.grid.minor = element_line(size = rel(0.25)), 
+        axis.ticks = element_line(colour = ""grey70"", size = rel(0.5)), 
+        legend.key = element_rect(fill = ""white"", colour = NA), 
+        strip.background = element_rect(fill = ""grey70"", colour = NA), 
+        strip.text = element_text(colour = ""white"", size = rel(0.8), 
+            margin = margin(0.8 * half_line, 0.8 * half_line, 
+                0.8 * half_line, 0.8 * half_line)), complete = TRUE)"
+ggplot2,%+replace%,829,ggplot2,theme_linedraw,R/theme-defaults.r,270,306,"theme_bw(base_size = base_size, base_family = base_family, base_line_size = base_line_size, 
+    base_rect_size = base_rect_size) %+replace% theme(axis.text = element_text(colour = ""black"", 
+    size = rel(0.8)), axis.ticks = element_line(colour = ""black"", 
+    size = rel(0.5)), panel.border = element_rect(fill = NA, 
+    colour = ""black"", size = rel(1)), panel.grid = element_line(colour = ""black""), 
+    panel.grid.major = element_line(size = rel(0.1)), panel.grid.minor = element_line(size = rel(0.05)), 
+    strip.background = element_rect(fill = ""black""), strip.text = element_text(colour = ""white"", 
+        size = rel(0.8), margin = margin(0.8 * half_line, 0.8 * 
+            half_line, 0.8 * half_line, 0.8 * half_line)), complete = TRUE)"
+ggplot2,%+replace%,829,ggplot2,theme_classic,R/theme-defaults.r,419,446,"theme_bw(base_size = base_size, base_family = base_family, base_line_size = base_line_size, 
+    base_rect_size = base_rect_size) %+replace% theme(panel.border = element_blank(), 
+    panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+    axis.line = element_line(colour = ""black"", size = rel(1)), 
+    legend.key = element_blank(), strip.background = element_rect(fill = ""white"", 
+        colour = ""black"", size = rel(2)), complete = TRUE)"
+ggplot2,%+replace%,829,ggplot2,theme_bw,R/theme-defaults.r,242,266,"theme_grey(base_size = base_size, base_family = base_family, 
+    base_line_size = base_line_size, base_rect_size = base_rect_size) %+replace% 
+    theme(panel.background = element_rect(fill = ""white"", colour = NA), 
+        panel.border = element_rect(fill = NA, colour = ""grey20""), 
+        panel.grid = element_line(colour = ""grey92""), panel.grid.minor = element_line(size = rel(0.5)), 
+        strip.background = element_rect(fill = ""grey85"", colour = ""grey20""), 
+        legend.key = element_rect(fill = ""white"", colour = NA), 
+        complete = TRUE)"
+ggplot2,%+replace%,829,ggplot2,theme_minimal,R/theme-defaults.r,394,415,"theme_bw(base_size = base_size, base_family = base_family, base_line_size = base_line_size, 
+    base_rect_size = base_rect_size) %+replace% theme(axis.ticks = element_blank(), 
+    legend.background = element_blank(), legend.key = element_blank(), 
+    panel.background = element_blank(), panel.border = element_blank(), 
+    strip.background = element_blank(), plot.background = element_blank(), 
+    complete = TRUE)"
+ggplot2,%+replace%,829,ggplot2,theme_dark,R/theme-defaults.r,353,390,"theme_grey(base_size = base_size, base_family = base_family, 
+    base_line_size = base_line_size, base_rect_size = base_rect_size) %+replace% 
+    theme(panel.background = element_rect(fill = ""grey50"", colour = NA), 
+        panel.grid = element_line(colour = ""grey42""), panel.grid.major = element_line(size = rel(0.5)), 
+        panel.grid.minor = element_line(size = rel(0.25)), axis.ticks = element_line(colour = ""grey20"", 
+            size = rel(0.5)), legend.key = element_rect(fill = ""grey50"", 
+            colour = NA), strip.background = element_rect(fill = ""grey15"", 
+            colour = NA), strip.text = element_text(colour = ""grey90"", 
+            size = rel(0.8), margin = margin(0.8 * half_line, 
+                0.8 * half_line, 0.8 * half_line, 0.8 * half_line)), 
+        complete = TRUE)"
+ggplot2,%+replace%,829,ggplot2,theme_replace,R/theme-current.R,94,96,theme_get() %+replace% theme(...)

@@ -1,0 +1,11 @@
+object_name,index,foreign_pkg,foreign_object,foreign_object_class,foreign_src_file,foreign_src_line_start,foreign_src_line_end
+GeomPolygon,248,ggspatial,GeomPolypath,GeomPolypath / GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+StatIdentity,331,ggspatial,StatSpatialIdentity,stat_spatial_identity / StatIdentity / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggspatial,StatSpatialRasterDf,StatSpatialRasterDf / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggspatial,StatSpatialRasterAnnotation,StatSpatialRaster / StatSpatialRaster / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggspatial,StatSpatialRaster,StatSpatialRaster / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggspatial,StatSfAnnotation,StatSfAnnotation / StatSf / Stat / ggproto / gg,NA,NA,NA
+Geom,796,ggspatial,GeomScaleBar,GeomScaleBar / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggspatial,GeomNorthArrow,GeomNorthArrow / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggspatial,GeomMapTile,GeomMapTile / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggspatial,GeomSpatialRaster,GeomSpatialRaster / Geom / ggproto / gg,NA,NA,NA

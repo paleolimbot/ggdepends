@@ -1,0 +1,5 @@
+target_pkg,target_repo,foreign_pkg,foreign_repo
+ggplot2,tidyverse/ggplot2,ggspatial,cran/ggspatial
+ggplot2,tidyverse/ggplot2,ggplot2,tidyverse/ggplot2
+ggplot2,tidyverse/ggplot2,lime,thomasp85/lime
+ggplot2,tidyverse/ggplot2,ggstance,lionel-/ggstance

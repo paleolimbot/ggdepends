@@ -1,0 +1,76 @@
+target_pkg,object_name,index,foreign_pkg,foreign_object,foreign_src_file,foreign_src_line_start,foreign_src_line_end,call_text
+ggplot2,geom_label,8,ggspatial,geom_spatial_label,R/geom-spatial.R,75,77,"ggplot2::geom_label(mapping = mapping, data = data, stat = StatSpatialIdentity, 
+    crs = crs, ...)"
+ggplot2,aes_string,57,ggspatial,layer_spatial.Raster,R/layer-spatial-raster.R,24,72,"ggplot2::aes_string(raster = ""raster"")"
+ggplot2,aes_string,57,ggspatial,layer_spatial.Raster,R/layer-spatial-raster.R,24,72,"ggplot2::aes_string(raster = ""raster"")"
+ggplot2,geom_text,138,ggspatial,geom_spatial_text,R/geom-spatial.R,69,71,"ggplot2::geom_text(mapping = mapping, data = data, stat = StatSpatialIdentity, 
+    crs = crs, ...)"
+ggplot2,geom_path,217,ggspatial,geom_spatial_path,R/geom-spatial.R,57,59,"ggplot2::geom_path(mapping = mapping, data = data, stat = StatSpatialIdentity, 
+    crs = crs, ...)"
+ggplot2,ggproto,222,ggspatial,create_spatial_stat_class,R/geom-spatial.R,162,192,"ggplot2::ggproto(class_name, ParentStat, extra_params = c(ParentStat$extra_params, 
+    ""crs""), required_aes = unique(c(""x"", ""y"", ParentStat$required_aes)), 
+    compute_layer = function(self, data, params, layout) {
+        if (is.null(params$crs)) {
+            message(""Assuming crs = 4326 in "", class_name, ""()"")
+            from_crs <- sf::st_crs(4326)
+        }
+        else {
+            from_crs <- sf::st_crs(params$crs)
+        }
+        if (!is.null(layout$coord_params$crs)) {
+            if (!all(c(""x"", ""y"") %in% colnames(data))) 
+                stop(""Missing required aesthetics x, y in "", 
+                  class_name, ""()"")
+            data[c(""x"", ""y"")] <- xy_transform(data$x, data$y, 
+                from = from_crs, to = layout$coord_params$crs)
+        }
+        else {
+            warning(""Ignoring transformation in "", class_name, 
+                ""(). Use coord_sf() with a crs to project this layer."", 
+                call. = FALSE)
+        }
+        ggplot2::ggproto_parent(ParentStat, self)$compute_layer(data, 
+            params, layout)
+    })"
+ggplot2,layer,326,ggspatial,geom_polypath,R/geom-polypath.R,33,43,"ggplot2::layer(data = data, mapping = mapping, stat = stat, geom = GeomPolypath, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, rule = rule, ...))"
+ggplot2,layer,326,ggspatial,annotation_north_arrow,R/annotation-north-arrow.R,44,70,"ggplot2::layer(data = data, mapping = mapping, stat = ggplot2::StatIdentity, 
+    geom = GeomNorthArrow, position = ggplot2::PositionIdentity, 
+    show.legend = FALSE, inherit.aes = FALSE, params = list(..., 
+        height = height, width = width, pad_x = pad_x, pad_y = pad_y, 
+        style = style))"
+ggplot2,layer,326,ggspatial,layer_spatial.Raster,R/layer-spatial-raster.R,24,72,"ggplot2::layer(data = tibble::tibble(raster = list(data)), mapping = mapping, 
+    stat = stat, geom = geom, position = ""identity"", inherit.aes = FALSE, 
+    show.legend = !is_rgb, params = list(interpolate = interpolate, 
+        lazy = lazy, ...))"
+ggplot2,layer,326,ggspatial,stat_spatial_identity,R/geom-spatial.R,38,47,"ggplot2::layer(data = data, mapping = mapping, stat = StatSpatialIdentity, 
+    geom = geom, position = position, show.legend = show.legend, 
+    inherit.aes = inherit.aes, params = list(na.rm = FALSE, crs = crs, 
+        ...))"
+ggplot2,layer,326,ggspatial,annotation_scale,R/annotation-scale.R,44,85,"ggplot2::layer(data = data, mapping = mapping, stat = ggplot2::StatIdentity, 
+    geom = GeomScaleBar, position = ggplot2::PositionIdentity, 
+    show.legend = FALSE, inherit.aes = FALSE, params = list(..., 
+        plot_unit = plot_unit, bar_cols = bar_cols, line_width = line_width, 
+        height = height, pad_x = pad_x, pad_y = pad_y, text_pad = text_pad, 
+        text_cex = text_cex, text_face = text_face, text_family = text_family, 
+        tick_height = tick_height))"
+ggplot2,layer,326,ggspatial,annotation_map_tile,R/annotation-map-tile.R,26,71,"ggplot2::layer(data = data, mapping = mapping, geom = GeomMapTile, 
+    stat = ""identity"", position = ""identity"", params = list(forcedownload = forcedownload, 
+        cachedir = cachedir, progress = progress, quiet = quiet, 
+        interpolate = interpolate), inherit.aes = FALSE, show.legend = FALSE)"
+ggplot2,geom_point,424,ggspatial,geom_spatial_point,R/geom-spatial.R,51,53,"ggplot2::geom_point(mapping = mapping, data = data, stat = StatSpatialIdentity, 
+    crs = crs, ...)"
+ggplot2,aes,442,ggspatial,override_aesthetics,R/layer-spatial-raster.R,422,435,ggplot2::aes()
+ggplot2,aes,442,ggspatial,annotation_map_tile,R/annotation-map-tile.R,26,71,"ggplot2::aes(type = type, zoomin = zoomin)"
+ggplot2,aes,442,ggspatial,annotation_map_tile,R/annotation-map-tile.R,26,71,"ggplot2::aes(type = type, zoom = zoom, zoomin = zoomin)"
+ggplot2,ggproto_parent,453,ggspatial,create_spatial_stat_class,R/geom-spatial.R,162,192,"ggplot2::ggproto_parent(ParentStat, self)"
+ggplot2,geom_sf,820,ggspatial,layer_spatial.Raster,R/layer-spatial-raster.R,24,72,"ggplot2::geom_sf(data = sf::st_sfc(sf::st_point(), crs = sf::st_crs(data@crs@projargs)), 
+    inherit.aes = FALSE, show.legend = FALSE)"
+ggplot2,geom_sf,820,ggspatial,layer_spatial.default,R/layer-spatial.R,48,55,"ggplot2::geom_sf(mapping = mapping, data = do.call(sf::st_as_sf, 
+    c(list(data), sf_params)), inherit.aes = FALSE, ...)"
+ggplot2,geom_sf,820,ggspatial,annotation_spatial.default,R/layer-spatial.R,59,68,"ggplot2::geom_sf(mapping = mapping, data = do.call(sf::st_as_sf, 
+    c(list(data), sf_params)), inherit.aes = FALSE, na.rm = TRUE, 
+    stat = StatSfAnnotation, ...)"
+ggplot2,geom_sf,820,ggspatial,annotation_map_tile,R/annotation-map-tile.R,26,71,"ggplot2::geom_sf(data = sf::st_sfc(sf::st_point(), crs = sf::st_crs(3857)), 
+    inherit.aes = FALSE, show.legend = FALSE)"

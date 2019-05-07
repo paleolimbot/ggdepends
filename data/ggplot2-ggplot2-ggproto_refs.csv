@@ -1,0 +1,110 @@
+object_name,index,foreign_pkg,foreign_object,foreign_object_class,foreign_src_file,foreign_src_line_start,foreign_src_line_end
+StatSmooth,9,ggplot2,StatSmooth,StatSmooth / Stat / ggproto / gg,NA,NA,NA
+StatSummary2d,16,ggplot2,StatSummary2d,StatSummary2d / Stat / ggproto / gg,NA,NA,NA
+GeomMap,17,ggplot2,GeomMap,GeomMap / GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+GeomMap,17,ggplot2,GeomAnnotationMap,GeomAnnotationMap / GeomMap / GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+PositionFill,28,ggplot2,PositionFill,PositionFill / PositionStack / Position / ggproto / gg,NA,NA,NA
+GeomDotplot,32,ggplot2,GeomDotplot,GeomDotplot / Geom / ggproto / gg,NA,NA,NA
+AxisSecondary,34,ggplot2,AxisSecondary,AxisSecondary / ggproto / gg,NA,NA,NA
+GeomBar,36,ggplot2,GeomBar,GeomBar / GeomRect / Geom / ggproto / gg,NA,NA,NA
+FacetNull,55,ggplot2,FacetNull,FacetNull / Facet / ggproto / gg,NA,NA,NA
+ScaleContinuous,68,ggplot2,ScaleContinuous,ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ScaleContinuous,68,ggplot2,ScaleContinuousPosition,ScaleContinuousPosition / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ScaleContinuous,68,ggplot2,ScaleContinuousDate,ScaleContinuousDate / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ScaleContinuous,68,ggplot2,ScaleContinuousIdentity,ScaleContinuousIdentity / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+ScaleContinuous,68,ggplot2,ScaleContinuousDatetime,ScaleContinuousDatetime / ScaleContinuous / Scale / ggproto / gg,NA,NA,NA
+GeomLine,71,ggplot2,GeomLine,GeomLine / GeomPath / Geom / ggproto / gg,NA,NA,NA
+ScaleDiscrete,72,ggplot2,ScaleDiscrete,ScaleDiscrete / Scale / ggproto / gg,NA,NA,NA
+ScaleDiscrete,72,ggplot2,ScaleDiscreteIdentity,ScaleDiscreteIdentity / ScaleDiscrete / Scale / ggproto / gg,NA,NA,NA
+ScaleDiscrete,72,ggplot2,ScaleDiscretePosition,ScaleDiscretePosition / ScaleDiscrete / Scale / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,Position,Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionJitter,PositionJitter / Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionJitterdodge,PositionJitterdodge / Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionNudge,PositionNudge / Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionDodge,PositionDodge / Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionStack,PositionStack / Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionDodge2,PositionDodge2 / PositionDodge / Position / ggproto / gg,NA,NA,NA
+Position,78,ggplot2,PositionIdentity,PositionIdentity / Position / ggproto / gg,NA,NA,NA
+CoordFlip,83,ggplot2,CoordFlip,CoordFlip / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+GeomHex,109,ggplot2,GeomHex,GeomHex / Geom / ggproto / gg,NA,NA,NA
+GeomCrossbar,110,ggplot2,GeomCrossbar,GeomCrossbar / Geom / ggproto / gg,NA,NA,NA
+StatBinhex,113,ggplot2,StatBinhex,StatBinhex / Stat / ggproto / gg,NA,NA,NA
+StatBoxplot,125,ggplot2,StatBoxplot,StatBoxplot / Stat / ggproto / gg,NA,NA,NA
+GeomSmooth,126,ggplot2,GeomSmooth,GeomSmooth / Geom / ggproto / gg,NA,NA,NA
+StatEcdf,127,ggplot2,StatEcdf,StatEcdf / Stat / ggproto / gg,NA,NA,NA
+GeomArea,132,ggplot2,GeomArea,GeomArea / GeomRibbon / Geom / ggproto / gg,NA,NA,NA
+GeomArea,132,ggplot2,GeomDensity,GeomDensity / GeomArea / GeomRibbon / Geom / ggproto / gg,NA,NA,NA
+ScalesList,139,ggplot2,ScalesList,ScalesList / ggproto / gg,NA,NA,NA
+RangeContinuous,146,ggplot2,RangeContinuous,RangeContinuous / Range / ggproto / gg,NA,NA,NA
+FacetGrid,147,ggplot2,FacetGrid,FacetGrid / Facet / ggproto / gg,NA,NA,NA
+GeomPath,150,ggplot2,GeomPath,GeomPath / Geom / ggproto / gg,NA,NA,NA
+GeomPath,150,ggplot2,GeomDensity2d,GeomDensity2d / GeomPath / Geom / ggproto / gg,NA,NA,NA
+GeomPath,150,ggplot2,GeomContour,GeomContour / GeomPath / Geom / ggproto / gg,NA,NA,NA
+GeomPath,150,ggplot2,GeomQuantile,GeomQuantile / GeomPath / Geom / ggproto / gg,NA,NA,NA
+GeomPath,150,ggplot2,GeomStep,GeomStep / GeomPath / Geom / ggproto / gg,NA,NA,NA
+CoordMap,164,ggplot2,CoordMap,CoordMap / Coord / ggproto / gg,NA,NA,NA
+GeomVline,171,ggplot2,GeomVline,GeomVline / Geom / ggproto / gg,NA,NA,NA
+StatQuantile,184,ggplot2,StatQuantile,StatQuantile / Stat / ggproto / gg,NA,NA,NA
+GeomCurve,185,ggplot2,GeomCurve,GeomCurve / GeomSegment / Geom / ggproto / gg,NA,NA,NA
+GeomRaster,213,ggplot2,GeomRaster,GeomRaster / Geom / ggproto / gg,NA,NA,NA
+CoordTrans,214,ggplot2,CoordTrans,CoordTrans / Coord / ggproto / gg,NA,NA,NA
+StatSum,219,ggplot2,StatSum,StatSum / Stat / ggproto / gg,NA,NA,NA
+GeomRug,227,ggplot2,GeomRug,GeomRug / Geom / ggproto / gg,NA,NA,NA
+StatBindot,236,ggplot2,StatBindot,StatBindot / Stat / ggproto / gg,NA,NA,NA
+LayerSf,247,ggplot2,LayerSf,LayerSf / Layer / ggproto / gg,NA,NA,NA
+GeomPolygon,248,ggplot2,GeomPolygon,GeomPolygon / Geom / ggproto / gg,NA,NA,NA
+Scale,254,ggplot2,Scale,Scale / ggproto / gg,NA,NA,NA
+GeomHline,256,ggplot2,GeomHline,GeomHline / Geom / ggproto / gg,NA,NA,NA
+StatEllipse,262,ggplot2,StatEllipse,StatEllipse / Stat / ggproto / gg,NA,NA,NA
+StatQqLine,264,ggplot2,StatQqLine,StatQqLine / Stat / ggproto / gg,NA,NA,NA
+Layer,265,ggplot2,Layer,Layer / ggproto / gg,NA,NA,NA
+GeomCustomAnn,272,ggplot2,GeomCustomAnn,GeomCustomAnn / Geom / ggproto / gg,NA,NA,NA
+RangeDiscrete,289,ggplot2,RangeDiscrete,RangeDiscrete / Range / ggproto / gg,NA,NA,NA
+GeomLabel,291,ggplot2,GeomLabel,GeomLabel / Geom / ggproto / gg,NA,NA,NA
+StatIdentity,331,ggplot2,StatIdentity,StatIdentity / Stat / ggproto / gg,NA,NA,NA
+GeomSpoke,364,ggplot2,GeomSpoke,GeomSpoke / GeomSegment / Geom / ggproto / gg,NA,NA,NA
+GeomRasterAnn,367,ggplot2,GeomRasterAnn,GeomRasterAnn / Geom / ggproto / gg,NA,NA,NA
+CoordPolar,368,ggplot2,CoordPolar,CoordPolar / Coord / ggproto / gg,NA,NA,NA
+StatCount,381,ggplot2,StatCount,StatCount / Stat / ggproto / gg,NA,NA,NA
+GeomErrorbar,382,ggplot2,GeomErrorbar,GeomErrorbar / Geom / ggproto / gg,NA,NA,NA
+GeomSf,401,ggplot2,GeomSf,GeomSf / Geom / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,Stat,Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatDensity,StatDensity / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatSfCoordinates,StatSfCoordinates / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatBin2d,StatBin2d / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatSummary,StatSummary / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatBin,StatBin / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatSummaryHex,StatSummaryHex / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatFunction,StatFunction / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatContour,StatContour / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatSummaryBin,StatSummaryBin / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatDensity2d,StatDensity2d / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatQq,StatQq / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatUnique,StatUnique / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatSf,StatSf / Stat / ggproto / gg,NA,NA,NA
+Stat,414,ggplot2,StatYdensity,StatYdensity / Stat / ggproto / gg,NA,NA,NA
+GeomTile,422,ggplot2,GeomTile,GeomTile / GeomRect / Geom / ggproto / gg,NA,NA,NA
+CoordFixed,430,ggplot2,CoordFixed,CoordFixed / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+GeomBoxplot,436,ggplot2,GeomBoxplot,GeomBoxplot / Geom / ggproto / gg,NA,NA,NA
+GeomLinerange,439,ggplot2,GeomLinerange,GeomLinerange / Geom / ggproto / gg,NA,NA,NA
+GeomCol,447,ggplot2,GeomCol,GeomCol / GeomRect / Geom / ggproto / gg,NA,NA,NA
+GeomAbline,450,ggplot2,GeomAbline,GeomAbline / Geom / ggproto / gg,NA,NA,NA
+GeomLogticks,480,ggplot2,GeomLogticks,GeomLogticks / Geom / ggproto / gg,NA,NA,NA
+CoordQuickmap,489,ggplot2,CoordQuickmap,CoordQuickmap / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+GeomRibbon,518,ggplot2,GeomRibbon,GeomRibbon / Geom / ggproto / gg,NA,NA,NA
+GeomErrorbarh,616,ggplot2,GeomErrorbarh,GeomErrorbarh / Geom / ggproto / gg,NA,NA,NA
+Range,624,ggplot2,Range,Range / ggproto / gg,NA,NA,NA
+GeomText,631,ggplot2,GeomText,GeomText / Geom / ggproto / gg,NA,NA,NA
+Layout,647,ggplot2,Layout,Layout / ggproto / gg,NA,NA,NA
+GeomPointrange,648,ggplot2,GeomPointrange,GeomPointrange / Geom / ggproto / gg,NA,NA,NA
+CoordSf,661,ggplot2,CoordSf,CoordSf / CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+GeomBlank,671,ggplot2,GeomBlank,GeomBlank / Geom / ggproto / gg,NA,NA,NA
+GeomRect,689,ggplot2,GeomRect,GeomRect / Geom / ggproto / gg,NA,NA,NA
+GeomSegment,721,ggplot2,GeomSegment,GeomSegment / Geom / ggproto / gg,NA,NA,NA
+CoordCartesian,731,ggplot2,CoordCartesian,CoordCartesian / Coord / ggproto / gg,NA,NA,NA
+GeomViolin,737,ggplot2,GeomViolin,GeomViolin / Geom / ggproto / gg,NA,NA,NA
+Coord,744,ggplot2,Coord,Coord / ggproto / gg,NA,NA,NA
+FacetWrap,755,ggplot2,FacetWrap,FacetWrap / Facet / ggproto / gg,NA,NA,NA
+GeomPoint,772,ggplot2,GeomPoint,GeomPoint / Geom / ggproto / gg,NA,NA,NA
+Geom,796,ggplot2,Geom,Geom / ggproto / gg,NA,NA,NA
+Facet,823,ggplot2,Facet,Facet / ggproto / gg,NA,NA,NA

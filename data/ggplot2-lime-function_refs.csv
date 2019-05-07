@@ -1,0 +1,73 @@
+target_pkg,object_name,index,foreign_pkg,foreign_object,foreign_src_file,foreign_src_line_start,foreign_src_line_end,call_text
+ggplot2,facet_wrap,7,lime,plot_image_explanation,NA,NA,NA,"facet_wrap(~label + probability + `Explanation fit`, labeller = label_both_upper)"
+ggplot2,facet_wrap,7,lime,plot_explanations,NA,NA,NA,"facet_wrap(~label, ...)"
+ggplot2,facet_wrap,7,lime,plot_features,NA,NA,NA,"facet_wrap(~case + label + probability + `Explanation fit`, labeller = label_both_upper, 
+    scales = ""free_y"", ncol = ncol)"
+ggplot2,facet_wrap,7,lime,plot_features,NA,NA,NA,"facet_wrap(~case + prediction + `Explanation fit`, labeller = label_both_upper, 
+    scales = ""free_y"", ncol = ncol)"
+ggplot2,aes_q,10,lime,plot_superpixels,NA,NA,NA,"aes_(~x, ~y, fill = ~colour)"
+ggplot2,aes_q,10,lime,plot_image_explanation,NA,NA,NA,"aes_(~x, ~y, fill = ~colour)"
+ggplot2,aes_q,10,lime,plot_explanations,NA,NA,NA,"aes_(~case, ~feature_desc)"
+ggplot2,aes_q,10,lime,plot_explanations,NA,NA,NA,aes_(fill = ~feature_weight)
+ggplot2,aes_q,10,lime,plot_features,NA,NA,NA,"aes_(~description, ~feature_weight, fill = ~type)"
+ggplot2,coord_fixed,70,lime,plot_superpixels,NA,NA,NA,coord_fixed(expand = FALSE)
+ggplot2,coord_fixed,70,lime,plot_image_explanation,NA,NA,NA,coord_fixed(expand = FALSE)
+ggplot2,geom_tile,115,lime,plot_explanations,NA,NA,NA,geom_tile(aes_(fill = ~feature_weight))
+ggplot2,element_blank,162,lime,theme_lime,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,theme_lime,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,theme_lime,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,theme_lime,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,theme_lime,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,plot_image_explanation,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,plot_image_explanation,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,plot_image_explanation,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,plot_image_explanation,NA,NA,NA,element_blank()
+ggplot2,element_blank,162,lime,plot_explanations,NA,NA,NA,element_blank()
+ggplot2,scale_y_reverse,183,lime,plot_superpixels,NA,NA,NA,scale_y_reverse()
+ggplot2,scale_y_reverse,183,lime,plot_image_explanation,NA,NA,NA,scale_y_reverse()
+ggplot2,labs,223,lime,plot_features,NA,NA,NA,"labs(y = ""Weight"", x = ""Feature"", fill = """")"
+ggplot2,theme,284,lime,theme_lime,NA,NA,NA,"theme(strip.text = element_text(face = ""bold"", size = 9), plot.margin = margin(15, 
+    15, 15, 15), legend.background = element_blank(), legend.key = element_blank(), 
+    panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank(), 
+    axis.ticks = element_blank(), legend.position = ""bottom"", 
+    panel.spacing.y = unit(15, ""pt""), strip.text.x = element_text(margin = margin(t = 2, 
+        b = 2), hjust = 0), axis.title.y = element_text(margin = margin(r = 10)), 
+    axis.title.x = element_text(margin = margin(t = 10)), ...)"
+ggplot2,theme,284,lime,plot_image_explanation,NA,NA,NA,"theme(axis.title = element_blank(), axis.line = element_blank(), 
+    axis.text = element_blank(), axis.ticks = element_blank())"
+ggplot2,theme,284,lime,plot_explanations,NA,NA,NA,"theme(panel.border = element_rect(fill = NA, colour = ""grey60"", 
+    size = 1), panel.grid = element_blank(), legend.position = ""right"", 
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))"
+ggplot2,margin,341,lime,theme_lime,NA,NA,NA,"margin(15, 15, 15, 15)"
+ggplot2,margin,341,lime,theme_lime,NA,NA,NA,"margin(t = 2, b = 2)"
+ggplot2,margin,341,lime,theme_lime,NA,NA,NA,margin(r = 10)
+ggplot2,margin,341,lime,theme_lime,NA,NA,NA,margin(t = 10)
+ggplot2,geom_col,361,lime,plot_features,NA,NA,NA,"geom_col(aes_(~description, ~feature_weight, fill = ~type))"
+ggplot2,theme_void,372,lime,plot_superpixels,NA,NA,NA,theme_void()
+ggplot2,scale_fill_gradient2,379,lime,plot_explanations,NA,NA,NA,"scale_fill_gradient2(""Feature\nweight"", low = ""#8e0152"", mid = ""#f7f7f7"", 
+    high = ""#276419"")"
+ggplot2,theme_minimal,423,lime,theme_lime,NA,NA,NA,theme_minimal()
+ggplot2,geom_raster,476,lime,plot_superpixels,NA,NA,NA,"geom_raster(aes_(~x, ~y, fill = ~colour))"
+ggplot2,geom_raster,476,lime,plot_image_explanation,NA,NA,NA,"geom_raster(aes_(~x, ~y, fill = ~colour))"
+ggplot2,element_rect,478,lime,plot_explanations,NA,NA,NA,"element_rect(fill = NA, colour = ""grey60"", size = 1)"
+ggplot2,coord_flip,494,lime,plot_features,NA,NA,NA,coord_flip()
+ggplot2,element_text,507,lime,theme_lime,NA,NA,NA,"element_text(face = ""bold"", size = 9)"
+ggplot2,element_text,507,lime,theme_lime,NA,NA,NA,"element_text(margin = margin(t = 2, b = 2), hjust = 0)"
+ggplot2,element_text,507,lime,theme_lime,NA,NA,NA,element_text(margin = margin(r = 10))
+ggplot2,element_text,507,lime,theme_lime,NA,NA,NA,element_text(margin = margin(t = 10))
+ggplot2,element_text,507,lime,plot_explanations,NA,NA,NA,"element_text(angle = 45, hjust = 1, vjust = 1)"
+ggplot2,scale_y_discrete,645,lime,plot_explanations,NA,NA,NA,"scale_y_discrete(""Feature"", expand = c(0, 0))"
+ggplot2,facet_grid,680,lime,plot_image_explanation,NA,NA,NA,"facet_grid(type ~ label + probability + `Explanation fit`, labeller = label_both_upper, 
+    switch = ""y"")"
+ggplot2,label_both,723,lime,label_both_upper,NA,NA,NA,"label_both(labels, multi_line, sep)"
+ggplot2,scale_fill_manual,749,lime,plot_features,NA,NA,NA,"scale_fill_manual(values = c(""forestgreen"", ""firebrick""), drop = FALSE)"
+ggplot2,scale_fill_identity,769,lime,plot_superpixels,NA,NA,NA,scale_fill_identity()
+ggplot2,scale_fill_identity,769,lime,plot_image_explanation,NA,NA,NA,scale_fill_identity()
+ggplot2,ggplot,801,lime,plot_superpixels,NA,NA,NA,ggplot(raster)
+ggplot2,ggplot,801,lime,plot_image_explanation,NA,NA,NA,ggplot(raster)
+ggplot2,ggplot,801,lime,plot_explanations,NA,NA,NA,"ggplot(explanation, aes_(~case, ~feature_desc))"
+ggplot2,ggplot,801,lime,plot_features,NA,NA,NA,ggplot(explanation)
+ggplot2,ggplot,801,lime,plot_features,NA,NA,NA,ggplot(explanation)
+ggplot2,scale_x_discrete,834,lime,plot_explanations,NA,NA,NA,"scale_x_discrete(""Case"", expand = c(0, 0))"
+ggplot2,scale_x_discrete,834,lime,plot_features,NA,NA,NA,"scale_x_discrete(labels = function(lab) substr(lab, desc_width + 
+    1, nchar(lab)))"

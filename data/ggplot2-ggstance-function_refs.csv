@@ -1,0 +1,63 @@
+target_pkg,object_name,index,foreign_pkg,foreign_object,foreign_src_file,foreign_src_line_start,foreign_src_line_end,call_text
+ggplot2,ggproto,222,ggstance,position_jitterdodgev,R/position-jitterdodgev.R,3,15,"ggproto(NULL, PositionJitterdodgev, jitter.width = jitter.width, 
+    jitter.height = jitter.height, dodge.height = dodge.height, 
+    seed = seed)"
+ggplot2,ggproto,222,ggstance,position_stackv,R/position-stackv.R,7,9,"ggproto(NULL, PositionStackv, hjust = hjust, reverse = reverse)"
+ggplot2,ggproto,222,ggstance,position_dodgev,R/position-dodgev.R,3,8,"ggproto(NULL, PositionDodgev, height = height, preserve = match.arg(preserve))"
+ggplot2,ggproto,222,ggstance,position_dodge2v,R/position-dodge2v.R,5,13,"ggproto(NULL, PositionDodge2v, height = height, preserve = match.arg(preserve), 
+    padding = padding, reverse = reverse)"
+ggplot2,layer,326,ggstance,stat_counth,R/stat-counth.R,6,27,"layer(data = data, mapping = mapping, stat = StatCounth, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, width = width, ...))"
+ggplot2,layer,326,ggstance,geom_colh,R/geom-colh.R,3,25,"layer(data = data, mapping = mapping, stat = ""identity"", geom = GeomColh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(width = width, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,geom_barh,R/geom-barh.R,7,38,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBarh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(width = width, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,geom_linerangeh,R/geom-linerangeh.R,10,29,"layer(data = data, mapping = mapping, stat = stat, geom = GeomLinerangeh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,stat_boxploth,R/stat-boxploth.R,6,27,"layer(data = data, mapping = mapping, stat = StatBoxploth, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, coef = coef, ...))"
+ggplot2,layer,326,ggstance,geom_violinh,R/geom-violinh.R,7,32,"layer(data = data, mapping = mapping, stat = stat, geom = GeomViolinh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(trim = trim, scale = scale, draw_quantiles = draw_quantiles, 
+        na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,geom_pointrangeh,R/geom-pointrangeh.R,4,25,"layer(data = data, mapping = mapping, stat = stat, geom = GeomPointrangeh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fatten = fatten, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,stat_xdensity,R/stat-xdensity.R,6,37,"layer(data = data, mapping = mapping, stat = StatXdensity, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(bw = bw, adjust = adjust, kernel = kernel, 
+        trim = trim, scale = scale, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,geom_crossbarh,R/geom-crossbarh.R,4,25,"layer(data = data, mapping = mapping, stat = stat, geom = GeomCrossbarh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fatten = fatten, na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,geom_histogramh,R/geom-histogramh.R,7,31,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBarh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(binwidth = binwidth, bins = bins, na.rm = na.rm, 
+        pad = FALSE, ...))"
+ggplot2,layer,326,ggstance,geom_errorbarh,R/geom-errorbarh.R,3,22,"layer(data = data, mapping = mapping, stat = stat, geom = GeomErrorbarh, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(na.rm = na.rm, ...))"
+ggplot2,layer,326,ggstance,stat_binh,R/stat-binh.R,6,38,"layer(data = data, mapping = mapping, stat = StatBinh, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(binwidth = binwidth, bins = bins, center = center, 
+        boundary = boundary, closed = closed, pad = pad, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggstance,stat_summaryh,R/stat-summaryh.R,12,41,"layer(data = data, mapping = mapping, stat = StatSummaryh, geom = geom, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(fun.data = fun.data, fun.x = fun.x, fun.xmax = fun.xmax, 
+        fun.xmin = fun.xmin, fun.args = fun.args, na.rm = na.rm, 
+        ...))"
+ggplot2,layer,326,ggstance,geom_boxploth,R/geom-boxploth.R,37,86,"layer(data = data, mapping = mapping, stat = stat, geom = GeomBoxploth, 
+    position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+    params = list(outlier.colour = outlier.color %||% outlier.colour, 
+        outlier.fill = outlier.fill, outlier.shape = outlier.shape, 
+        outlier.size = outlier.size, outlier.stroke = outlier.stroke, 
+        outlier.alpha = outlier.alpha, notch = notch, notchwidth = notchwidth, 
+        varwidth = varwidth, na.rm = na.rm, ...))"
+ggplot2,draw_key_point,351,ggstance,draw_key_pointrangeh,R/legend-draw.R,24,29,"draw_key_point(transform(data, size = data$size * 4), params)"
+ggplot2,mean_se,418,ggstance,make_summary_fun,R/stat-summaryh.R,63,91,mean_se(df$x)
